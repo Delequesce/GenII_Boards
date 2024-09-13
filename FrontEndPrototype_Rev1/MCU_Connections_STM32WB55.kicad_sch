@@ -1319,6 +1319,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 57.15) (xy 105.41 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f13dd05-d2c2-4caf-8739-0ada561f6c1e")
+	)
+	(wire
+		(pts
 			(xy 60.96 83.82) (xy 57.15 83.82)
 		)
 		(stroke
@@ -1688,18 +1698,6 @@
 		)
 		(uuid "168e291b-f151-470f-a948-c75063635178")
 	)
-	(hierarchical_label "QSPI_IO1"
-		(shape output)
-		(at 102.87 46.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "02a5b6ac-6051-4ef4-be0f-767c1d5ab991")
-	)
 	(hierarchical_label "PC12"
 		(shape output)
 		(at 101.6 69.85 180)
@@ -1904,6 +1902,18 @@
 		)
 		(uuid "3dd81428-03b3-47fd-a71a-098c2c4edbfd")
 	)
+	(hierarchical_label "PA5"
+		(shape output)
+		(at 102.87 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4af9a7e4-d2cc-4f9d-8ad8-bdc99ed326da")
+	)
 	(hierarchical_label "PA1"
 		(shape output)
 		(at 60.96 81.28 0)
@@ -1916,7 +1926,7 @@
 		)
 		(uuid "559e1c49-d135-49c5-9b6e-baf871a2a722")
 	)
-	(hierarchical_label "QSPI_IO2"
+	(hierarchical_label "PA7"
 		(shape output)
 		(at 102.87 62.23 180)
 		(fields_autoplaced yes)
@@ -1952,7 +1962,7 @@
 		)
 		(uuid "7ad362b4-4415-48de-ba47-437caab6f27a")
 	)
-	(hierarchical_label "QSPI_SCK"
+	(hierarchical_label "PA4"
 		(shape output)
 		(at 102.87 64.77 180)
 		(fields_autoplaced yes)
@@ -1987,18 +1997,6 @@
 			(justify right)
 		)
 		(uuid "87cbf8a0-ec76-4b14-832b-03ed8f7aab52")
-	)
-	(hierarchical_label "QSPI_IO0"
-		(shape output)
-		(at 102.87 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "95345650-3eee-439f-94f1-a41851838c6b")
 	)
 	(hierarchical_label "Vdd"
 		(shape output)
@@ -2036,7 +2034,7 @@
 		)
 		(uuid "a30dc975-762a-46a5-8fee-ae275d2c2f76")
 	)
-	(hierarchical_label "Tim2_PWM_2"
+	(hierarchical_label "PA2"
 		(shape output)
 		(at 102.87 87.63 180)
 		(fields_autoplaced yes)
@@ -2120,7 +2118,7 @@
 		)
 		(uuid "c93c98ec-a65e-4fe2-9889-3d1e8d52a03f")
 	)
-	(hierarchical_label "Tim2_PWM_3"
+	(hierarchical_label "PA3"
 		(shape output)
 		(at 102.87 90.17 180)
 		(fields_autoplaced yes)
@@ -2132,7 +2130,7 @@
 		)
 		(uuid "d1675505-8807-47ee-b2e0-5cf827a0331e")
 	)
-	(hierarchical_label "QSPI_IO3"
+	(hierarchical_label "PA6"
 		(shape output)
 		(at 102.87 59.69 180)
 		(fields_autoplaced yes)
