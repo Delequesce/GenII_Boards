@@ -869,6 +869,16 @@
 		)
 		(uuid "d318233d-8cc7-4f46-96c5-73ef658a86b2")
 	)
+	(text "30V Tolerant"
+		(exclude_from_sim no)
+		(at 114.808 46.736 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16a51191-cc05-4ff2-b28e-c6bbd9cf41c3")
+	)
 	(text "NMOS Transistor Passes Input \nto Output with < 100 mOhm RdOn\nbased on TPS2400 Gate Output"
 		(exclude_from_sim no)
 		(at 100.33 69.85 0)
@@ -880,9 +890,19 @@
 		)
 		(uuid "578f2b3c-3ecc-419e-bdd4-c7d3e0216ce2")
 	)
-	(text "Zener Diode attenuates the voltage\nspike from an inductive power \nsupply when load is disconnected."
+	(text "Components need to be \nat least 20V tolerant"
 		(exclude_from_sim no)
-		(at 27.94 67.31 0)
+		(at 67.31 44.704 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ad33b447-0c5a-4de2-afbf-6d70c19c7cdf")
+	)
+	(text "Zener Diode attenuates the voltage\nspike from an inductive power \nsupply when load is disconnected.\nMost likely optional"
+		(exclude_from_sim no)
+		(at 26.924 70.612 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -978,7 +998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 68.58 54.61 0)
 			(effects
 				(font
@@ -1038,7 +1058,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D_Zener"
+		(property "Value" "NC"
 			(at 49.53 57.15 90)
 			(effects
 				(font
