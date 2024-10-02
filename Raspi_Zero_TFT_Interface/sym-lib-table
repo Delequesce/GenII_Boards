@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2024-09-30_20-32-33")(type "KiCad")(uri "${KIPRJMOD}/ul_541044031/KiCADv6/2024-09-30_20-32-33.kicad_sym")(options "")(descr ""))
+  (lib (name "52271-0679")(type "KiCad")(uri "${KIPRJMOD}/Molex_0522710679/52271-0679.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-09-30_21-22-34")(type "KiCad")(uri "${KIPRJMOD}/AP5725WG_7/KiCADv6/2024-09-30_21-22-34.kicad_sym")(options "")(descr ""))
+)

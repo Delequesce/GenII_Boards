@@ -6701,6 +6701,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "SW1")
 					(unit 1)
@@ -6767,6 +6773,12 @@
 			(uuid "a30b8b32-83a2-4a25-aa9d-400fe3ffeb77")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR024")
@@ -6848,6 +6860,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "U3")
 					(unit 1)
@@ -6918,6 +6936,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "D4")
 					(unit 1)
@@ -6984,6 +7008,12 @@
 			(uuid "8f80826d-2d9b-4bda-a82e-c67b2d53b416")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "C13")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "C13")
@@ -7075,6 +7105,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "U5")
 					(unit 1)
@@ -7141,6 +7177,12 @@
 			(uuid "bbd77dde-6e0e-4dfd-be99-7e2e07c636c9")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR07")
@@ -7211,6 +7253,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "R11")
 					(unit 1)
@@ -7277,6 +7325,12 @@
 			(uuid "3414b3d0-ada5-4eab-8561-975c45c89b83")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR022")
@@ -7375,6 +7429,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "U6")
+					(unit 3)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "U6")
 					(unit 3)
@@ -7442,6 +7502,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR06")
 					(unit 1)
@@ -7508,6 +7574,12 @@
 			(uuid "0423e534-e229-4206-9173-0f5bf91092a3")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "C15")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "C15")
@@ -7579,6 +7651,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "D3")
 					(unit 1)
@@ -7649,6 +7727,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "C6")
 					(unit 1)
@@ -7718,6 +7802,12 @@
 			(uuid "223ce773-6493-441b-8895-574de86f2f65")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "C2")
@@ -7895,6 +7985,12 @@
 		)
 		(instances
 			(project ""
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "J4")
 					(unit 1)
@@ -7961,6 +8057,12 @@
 			(uuid "c461278d-9116-47b2-8db1-14cadb2dedfc")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR03")
@@ -8060,6 +8162,12 @@
 		)
 		(instances
 			(project ""
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "Q1")
 					(unit 1)
@@ -8127,6 +8235,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "R9")
 					(unit 1)
@@ -8193,6 +8307,12 @@
 			(uuid "ca397080-fb1b-4972-b24a-5f0295b0f1a6")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "R5")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "R5")
@@ -8280,6 +8400,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "D1")
 					(unit 1)
@@ -8349,6 +8475,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "C8")
 					(unit 1)
@@ -8415,6 +8547,12 @@
 			(uuid "9b63cd9b-e5f1-4657-a1e2-401bd87fb33a")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR02")
@@ -8483,6 +8621,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR028")
 					(unit 1)
@@ -8549,6 +8693,12 @@
 			(uuid "61c5d171-1091-4e24-a65a-c1a2ad8e741b")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR04")
@@ -8620,6 +8770,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "C3")
 					(unit 1)
@@ -8686,6 +8842,12 @@
 			(uuid "85edfdec-4655-4b3c-8d15-1e4bbf9d58bb")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR027")
@@ -8782,6 +8944,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "U6")
 					(unit 1)
@@ -8851,6 +9019,12 @@
 		)
 		(instances
 			(project ""
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "J2")
 					(unit 1)
@@ -8917,6 +9091,12 @@
 			(uuid "693a0b38-1940-44ac-9de8-1496f24ff1d5")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "R1")
@@ -8985,6 +9165,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR023")
 					(unit 1)
@@ -9051,6 +9237,12 @@
 			(uuid "9e505965-32aa-4a6a-a875-2e673be75997")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR020")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR020")
@@ -9119,6 +9311,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR015")
 					(unit 1)
@@ -9185,6 +9383,12 @@
 			(uuid "5473ddda-78a3-4e81-b35d-b875c6f2949d")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR01")
@@ -9264,6 +9468,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "U7")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "U7")
 					(unit 1)
@@ -9334,6 +9544,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "D2")
 					(unit 1)
@@ -9400,6 +9616,12 @@
 			(uuid "e13d4698-dc1c-4a90-83fa-e20b633b37b7")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "C14")
@@ -9468,6 +9690,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "R6")
 					(unit 1)
@@ -9534,6 +9762,12 @@
 			(uuid "d7d4505c-94b7-49a5-a9ff-13731c46686b")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "C12")
@@ -9602,6 +9836,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR011")
 					(unit 1)
@@ -9668,6 +9908,12 @@
 			(uuid "6f395d30-347d-40e3-9e07-c8a377d8d0b4")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "R3")
@@ -9764,6 +10010,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "U6")
+					(unit 2)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "U6")
 					(unit 2)
@@ -9833,6 +10085,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "C4")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "C4")
 					(unit 1)
@@ -9899,6 +10157,12 @@
 			(uuid "a418d2a3-bd13-4466-9fcb-2426d9907895")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR018")
@@ -9967,6 +10231,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "R4")
 					(unit 1)
@@ -10033,6 +10303,12 @@
 			(uuid "0d028497-99cc-4db6-a23e-1558feb91653")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR017")
@@ -10101,6 +10377,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "R7")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "R7")
 					(unit 1)
@@ -10167,6 +10449,12 @@
 			(uuid "da7b4591-36e0-4e99-ad3e-3758137a431d")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "R8")
@@ -10235,6 +10523,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR016")
 					(unit 1)
@@ -10301,6 +10595,12 @@
 			(uuid "78ea6d24-9cf3-4633-bf25-ead881368262")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR014")
@@ -10369,6 +10669,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR012")
 					(unit 1)
@@ -10435,6 +10741,12 @@
 			(uuid "7a959fff-867e-427a-9a55-31fd2b72e1b0")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR09")
@@ -10503,6 +10815,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR019")
 					(unit 1)
@@ -10569,6 +10887,12 @@
 			(uuid "e7fb304f-5ed6-4c1f-ae67-37b8482067cc")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "R2")
@@ -10646,6 +10970,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "U2")
 					(unit 1)
@@ -10712,6 +11042,12 @@
 			(uuid "c9b1a1f6-0338-49cd-a352-3a10f478f27c")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR026")
@@ -10782,6 +11118,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "R10")
 					(unit 1)
@@ -10848,6 +11190,12 @@
 			(uuid "d2a6e80f-f389-43d6-8c49-bc73e0f94ab4")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR010")
@@ -10918,6 +11266,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "C1")
 					(unit 1)
@@ -10986,6 +11340,12 @@
 			(uuid "de2e9a8d-4725-40f7-8c95-8292a7f12426")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "C7")
@@ -11163,6 +11523,12 @@
 		)
 		(instances
 			(project ""
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+			(project ""
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "J3")
 					(unit 1)
@@ -11231,6 +11597,12 @@
 			(uuid "624fb1b4-a7ee-490d-94d4-6cb62e1cb9ed")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "C9")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "C9")
@@ -11321,6 +11693,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "U1")
 					(unit 1)
@@ -11388,6 +11766,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR021")
 					(unit 1)
@@ -11454,6 +11838,12 @@
 			(uuid "a3ee1758-cf5a-4327-9e39-cfa4ea4fc937")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR025")
@@ -11525,6 +11915,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "C5")
 					(unit 1)
@@ -11591,6 +11987,12 @@
 			(uuid "ad164c77-7af0-4f17-ad5f-141ded1a5d0f")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR08")
@@ -11675,6 +12077,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "J1")
 					(unit 1)
@@ -11742,6 +12150,12 @@
 		)
 		(instances
 			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "C16")
 					(unit 1)
@@ -11808,6 +12222,12 @@
 			(uuid "488806ec-a71c-4a02-919a-a21fab5c7fdd")
 		)
 		(instances
+			(project "Power_Management_Board"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
 			(project "Power_Management_Board"
 				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e"
 					(reference "#PWR013")
@@ -11882,11 +12302,16 @@
 					(page "2")
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "1")
+			(project ""
+				(path "/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(page "")
+				)
+			)
+			(project "Raspi_Zero_TFT_Interface"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/08b4dd33-ddc1-4bf5-82fe-1d1836c833ca"
+					(page "2")
+				)
+			)
 		)
 	)
 )

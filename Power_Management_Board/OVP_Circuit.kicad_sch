@@ -980,7 +980,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fc6a051-b1d8-4bbe-89af-7db30f2884c4")
-		(property "Reference" "C10"
+		(property "Reference" "C11"
 			(at 71.12 53.3463 0)
 			(effects
 				(font
@@ -1026,15 +1026,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4880bdb4-2a67-45ce-bc39-135f0883e18b")
+			(uuid "654b6637-2446-45d3-87f7-b977a7a7649d")
 		)
 		(pin "2"
-			(uuid "32adf0be-973d-446f-b3f0-b00709af20d4")
+			(uuid "691b7514-b31c-495c-9bf1-bae4774b316f")
 		)
 		(instances
-			(project "Power_Management_Board"
-				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e/3a16a73b-a27b-416f-bc73-9c1f5fba4942"
-					(reference "C10")
+			(project "Raspi_Zero_TFT_Interface"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/50d4a57d-354f-4afa-869e-4e71aa380902/217d63bb-6b6c-40b3-9e5b-229da7cf0df5"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -1049,7 +1049,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80efa762-bcc2-45d2-b258-1106d0b504ae")
-		(property "Reference" "D5"
+		(property "Reference" "D6"
 			(at 52.07 54.61 90)
 			(effects
 				(font
@@ -1067,7 +1067,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 59.69 55.88 0)
 			(effects
 				(font
@@ -1095,15 +1095,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8635df06-fcc6-4c73-909a-30e6c76f2dbb")
+			(uuid "7781d297-40ba-4b43-9c76-7406ed41106c")
 		)
 		(pin "2"
-			(uuid "50ea2fca-8198-4c5c-ab14-b91724377986")
+			(uuid "21777f77-a39a-43eb-b46c-a038559198cc")
 		)
 		(instances
-			(project "Power_Management_Board"
-				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e/3a16a73b-a27b-416f-bc73-9c1f5fba4942"
-					(reference "D5")
+			(project "Raspi_Zero_TFT_Interface"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/50d4a57d-354f-4afa-869e-4e71aa380902/217d63bb-6b6c-40b3-9e5b-229da7cf0df5"
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -1119,7 +1119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9105a256-257e-4c41-93f5-338b068fab6b")
-		(property "Reference" "U4"
+		(property "Reference" "U8"
 			(at 85.09 54.61 0)
 			(effects
 				(font
@@ -1163,18 +1163,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "d4084bfc-78c3-4f21-8037-15693fbdda5a")
+			(uuid "bd8ef83b-b986-4151-8c9f-5b277238b9cb")
 		)
 		(pin "4"
-			(uuid "a9cb91b4-c973-426f-a83e-13289e2988a0")
+			(uuid "5f6ca225-968c-4b8e-a3b1-e09b75657df0")
 		)
 		(pin "5"
-			(uuid "8d571c68-7b9d-4ded-81e5-aa3815356cc1")
+			(uuid "52909ebb-4d76-441a-b0aa-8cb3859821b3")
 		)
 		(instances
-			(project "Power_Management_Board"
-				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e/3a16a73b-a27b-416f-bc73-9c1f5fba4942"
-					(reference "U4")
+			(project "Raspi_Zero_TFT_Interface"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/50d4a57d-354f-4afa-869e-4e71aa380902/217d63bb-6b6c-40b3-9e5b-229da7cf0df5"
+					(reference "U8")
 					(unit 1)
 				)
 			)
@@ -1190,7 +1190,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0f70e3f-ce97-47da-ae51-59d6f2c6e8d7")
-		(property "Reference" "Q2"
+		(property "Reference" "Q3"
 			(at 100.33 44.45 90)
 			(effects
 				(font
@@ -1237,18 +1237,18 @@
 			)
 		)
 		(pin "1"
-			(uuid "2f7c2194-970d-4554-8140-782ad686fa08")
+			(uuid "aa027f63-65b8-4a9b-9c61-921401caf631")
 		)
 		(pin "2"
-			(uuid "c3c3e277-8f53-45d1-9b7a-1c1d69b132df")
+			(uuid "bfeb00e0-a35a-4162-90c2-d83c86e2c248")
 		)
 		(pin "3"
-			(uuid "f5e975df-0a70-454e-a9ac-02d979dfc438")
+			(uuid "906b38a6-dc73-4729-bb1f-639cdbde5cb5")
 		)
 		(instances
-			(project "Power_Management_Board"
-				(path "/ccfc25ad-76bc-4178-a006-8e1d6746309e/3a16a73b-a27b-416f-bc73-9c1f5fba4942"
-					(reference "Q2")
+			(project "Raspi_Zero_TFT_Interface"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/50d4a57d-354f-4afa-869e-4e71aa380902/217d63bb-6b6c-40b3-9e5b-229da7cf0df5"
+					(reference "Q3")
 					(unit 1)
 				)
 			)
