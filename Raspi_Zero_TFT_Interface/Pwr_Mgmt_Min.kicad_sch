@@ -2382,7 +2382,7 @@
 	)
 	(text "For longevity of battery, we\nmay want to limit peak voltage \nof the battery. "
 		(exclude_from_sim no)
-		(at 27.686 30.988 0)
+		(at 80.264 26.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4498,13 +4498,14 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "OVP_Circuit.kicad_sch"
+		(property "Sheetfile" "C:/Users/cdeli/Desktop/DataCore/TraumaChek/GenII/SchematicAndBoardFiles/Power_Management_Board/OVP_Circuit.kicad_sch"
 			(at 74.93 102.1846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "Vin" input
