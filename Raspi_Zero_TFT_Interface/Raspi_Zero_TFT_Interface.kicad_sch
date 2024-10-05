@@ -9079,16 +9079,6 @@
 		)
 		(uuid "4e4a2c50-b40f-4465-aedf-1fa8e2f4f5ca")
 	)
-	(text "Optional Current Source\nCapability Monitoring"
-		(exclude_from_sim no)
-		(at 229.616 146.812 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "5e43304b-d8c5-493a-a2ef-fb7ffabeb86e")
-	)
 	(text "NHD-4.3-480272EF-ASXP-CTP"
 		(exclude_from_sim no)
 		(at 64.008 21.082 0)
@@ -9098,6 +9088,17 @@
 			)
 		)
 		(uuid "62097049-0505-4dda-9f04-c7d593c12568")
+	)
+	(text "USB_VCC 1 and 2 should be monitored by MCU \nADC channels to determine how much current \nsource can supply. If too low, MCU should not\nallow certain functions and warn the user. "
+		(exclude_from_sim no)
+		(at 206.502 158.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "745b139c-8e95-4229-aa41-1cd1ec3d096e")
 	)
 	(text "Raspberry Pi Zero 2W\nConnector. Right and\nleft sides are flipped\nfor bottom facing connector"
 		(exclude_from_sim no)
