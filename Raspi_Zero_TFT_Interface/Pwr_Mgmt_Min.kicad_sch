@@ -1530,12 +1530,6 @@
 		(uuid "378c5255-60f4-4331-87ff-9721f8e90e2d")
 	)
 	(junction
-		(at 144.78 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5af62b43-f771-4e3c-b685-57dfccecae3e")
-	)
-	(junction
 		(at 185.42 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1739,6 +1733,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 77.47) (xy 139.7 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "373661e5-f011-428b-a41a-6b1c62df7df5")
+	)
+	(wire
+		(pts
 			(xy 102.87 40.64) (xy 102.87 74.93)
 		)
 		(stroke
@@ -1809,7 +1813,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 48.26) (xy 139.7 83.82)
+			(xy 139.7 48.26) (xy 139.7 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1829,7 +1833,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 53.34) (xy 143.51 53.34)
+			(xy 143.51 53.34) (xy 156.21 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2119,6 +2123,16 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 44.45) (xy 143.51 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fc1e4d4-f55e-4d47-868d-3c2ec37d6ff7")
+	)
+	(wire
+		(pts
 			(xy 123.19 93.98) (xy 120.65 93.98)
 		)
 		(stroke
@@ -2146,16 +2160,6 @@
 			(type default)
 		)
 		(uuid "a6b0ad90-9ad2-4949-b9e0-ecfb8028fdba")
-	)
-	(wire
-		(pts
-			(xy 144.78 83.82) (xy 147.32 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a80dadb8-ded5-4d52-98e4-f723b50b9525")
 	)
 	(wire
 		(pts
@@ -2226,16 +2230,6 @@
 			(type default)
 		)
 		(uuid "cc8590f9-7825-4605-b2d4-babe3d3fa445")
-	)
-	(wire
-		(pts
-			(xy 156.21 53.34) (xy 154.94 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0e2f145-8d23-4393-8798-a23597f12cc3")
 	)
 	(wire
 		(pts
@@ -2359,6 +2353,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 44.45) (xy 143.51 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec874ee0-c53e-40ef-bd60-470f1432b695")
+	)
+	(wire
+		(pts
 			(xy 144.78 92.71) (xy 144.78 95.25)
 		)
 		(stroke
@@ -2389,7 +2393,7 @@
 	)
 	(text "Main Power Switch"
 		(exclude_from_sim no)
-		(at 138.43 43.942 0)
+		(at 119.126 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2522,7 +2526,7 @@
 	)
 	(hierarchical_label "V_Input"
 		(shape output)
-		(at 147.32 83.82 0)
+		(at 146.05 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3345,7 +3349,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 149.86 53.34 0)
+		(at 139.7 72.39 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3353,7 +3357,7 @@
 		(dnp no)
 		(uuid "8e8923db-81ff-42bc-a6eb-a87648b1486f")
 		(property "Reference" "SW2"
-			(at 150.368 46.228 0)
+			(at 146.812 72.898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3361,7 +3365,7 @@
 			)
 		)
 		(property "Value" "Rocker Switch SPST"
-			(at 149.86 49.53 0)
+			(at 143.51 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3370,7 +3374,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 149.86 53.34 0)
+			(at 139.7 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3379,7 +3383,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 149.86 53.34 0)
+			(at 139.7 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3388,7 +3392,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 149.86 53.34 0)
+			(at 139.7 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)

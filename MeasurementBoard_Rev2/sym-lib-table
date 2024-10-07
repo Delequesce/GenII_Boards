@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "FrontEndPrototype_Rev1-rescue")(type "KiCad")(uri "${KIPRJMOD}/FrontEndPrototype_Rev1-rescue.kicad_sym")(options "")(descr ""))
+)
