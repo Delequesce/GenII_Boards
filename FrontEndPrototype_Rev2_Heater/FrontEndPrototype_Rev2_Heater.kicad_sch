@@ -552,25 +552,23 @@
 				)
 			)
 		)
-		(symbol "power:GND"
-			(power)
+		(symbol "Mechanical:MountingHole"
 			(pin_names
-				(offset 0)
+				(offset 1.016)
 			)
-			(exclude_from_sim no)
-			(in_bom yes)
+			(exclude_from_sim yes)
+			(in_bom no)
 			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
+			(property "Reference" "H"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -586,7 +584,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -595,7 +593,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(property "Description" "Mounting Hole without connection"
 				(at 0 0 0)
 				(effects
 					(font
@@ -604,7 +602,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power"
+			(property "ki_keywords" "mounting hole"
 				(at 0 0 0)
 				(effects
 					(font
@@ -613,13 +611,21 @@
 					(hide yes)
 				)
 			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
 					(stroke
-						(width 0)
+						(width 1.27)
 						(type default)
 					)
 					(fill
@@ -627,153 +633,151 @@
 					)
 				)
 			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
 		)
 	)
 	(junction
-		(at 72.39 80.01)
+		(at 66.04 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00f0460e-6ed3-412b-8658-e00dfc745dd1")
 	)
 	(junction
-		(at 53.34 58.42)
+		(at 255.27 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "09b16d80-18e7-4122-88f5-6e49347185af")
+		(uuid "242009c8-75b6-4b5d-aaf5-03def3f9bba8")
 	)
 	(junction
-		(at 63.5 58.42)
+		(at 246.38 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2046f292-8708-4a40-b79e-b2e38187960e")
+		(uuid "25fcf9a1-0d84-435b-8c8c-c9d8ff7c71c8")
 	)
 	(junction
-		(at 33.02 38.1)
+		(at 228.6 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "391523dd-1d77-4c56-a5bb-27307f0daf73")
+		(uuid "2661be2b-4627-4ad4-b71c-44d6d870a54a")
 	)
 	(junction
-		(at 81.28 38.1)
+		(at 228.6 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "71e84d98-aa17-45b2-9b13-f5c251b331d9")
+		(uuid "2d6a89eb-6249-40bb-8179-4846aa009127")
 	)
 	(junction
-		(at 63.5 38.1)
+		(at 219.71 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "73e8f8ea-139e-4d4a-8442-b035c2a14335")
+		(uuid "4ac52131-c60f-4e43-8cab-6f4b355ce763")
 	)
 	(junction
-		(at 81.28 58.42)
+		(at 68.58 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8aeccde3-055e-4975-996b-a1f3cb33912f")
+		(uuid "50f63464-3aeb-406a-ad57-16311877b020")
 	)
 	(junction
-		(at 99.06 58.42)
+		(at 237.49 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8ba5d17e-06be-485a-985e-0da34c9d8906")
+		(uuid "5dd0e136-d846-48be-9fbe-765e383d53c1")
 	)
 	(junction
-		(at 72.39 106.68)
+		(at 200.66 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "66354ff3-4549-4d1f-b38e-e0844267226b")
+	)
+	(junction
+		(at 255.27 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "695672a5-c2d4-4501-ae42-88ac6de4775b")
+	)
+	(junction
+		(at 209.55 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bc56b48-c7ee-41b1-9012-f853e2dcce25")
+	)
+	(junction
+		(at 246.38 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7bead5df-7a16-436b-851f-081cd458878b")
+	)
+	(junction
+		(at 66.04 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94d2107b-0ac1-45b8-8983-cb11d67b6fb9")
 	)
 	(junction
-		(at 53.34 38.1)
+		(at 209.55 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b56328f7-09f9-461d-af97-c5a7d5e8e69c")
+		(uuid "aba0feac-8bac-4123-bb76-1125b866a6e7")
 	)
 	(junction
-		(at 72.39 58.42)
+		(at 200.66 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b79a275a-c20b-4675-934f-1bb7f1efdc3c")
+		(uuid "bc448527-aafe-4267-b0d6-cb4be6b3c77e")
 	)
 	(junction
-		(at 44.45 38.1)
+		(at 189.23 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "baab7d59-e55a-445c-ade0-db7a6f708b85")
+		(uuid "bfd5f86a-abcb-4b64-b003-b07b2acb8c0e")
 	)
 	(junction
-		(at 90.17 58.42)
+		(at 237.49 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e56100db-4bd1-46e1-8eb3-2bf24732fe82")
+		(uuid "d0e5d975-6db3-49b6-ba94-dcc98d7e13a3")
 	)
 	(junction
-		(at 99.06 38.1)
+		(at 228.6 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e96c3f8f-d029-40e2-962d-d0a39dabbe12")
+		(uuid "d11378d7-d268-45df-9885-0f4a5de1518f")
 	)
 	(junction
-		(at 72.39 38.1)
+		(at 228.6 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f57ec547-63f7-4bfc-8e81-4f7a5a4afebc")
+		(uuid "f497f7a7-c03b-4c7b-8bf5-0b6cc6550194")
 	)
 	(junction
-		(at 44.45 58.42)
+		(at 219.71 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f6abbd2c-8614-45f7-b626-df930f5a8537")
-	)
-	(junction
-		(at 90.17 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f7b47cd7-2547-4356-8802-85a5b5594533")
+		(uuid "f878f9c7-f843-4ab0-856e-4dab7b8026ee")
 	)
 	(wire
 		(pts
-			(xy 44.45 38.1) (xy 44.45 45.72)
+			(xy 246.38 46.99) (xy 255.27 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0377983a-bb59-466c-b494-a3ee38696c06")
+		(uuid "0ab7e460-53cd-4802-885e-60a89b9d0264")
 	)
 	(wire
 		(pts
-			(xy 107.95 58.42) (xy 107.95 50.8)
+			(xy 237.49 67.31) (xy 246.38 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "089b6bf3-cca0-4ecc-96a8-942da82748fb")
+		(uuid "0b568d00-3a51-4192-a28c-9308f41dc74e")
 	)
 	(wire
 		(pts
-			(xy 27.94 40.64) (xy 31.75 40.64)
+			(xy 63.5 36.83) (xy 67.31 36.83)
 		)
 		(stroke
 			(width 0)
@@ -783,7 +787,27 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 58.42) (xy 44.45 58.42)
+			(xy 219.71 46.99) (xy 219.71 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1048e3-e6b2-4c0d-911d-45fdfd81d91e")
+	)
+	(wire
+		(pts
+			(xy 189.23 46.99) (xy 200.66 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d1655e5-bceb-44b6-8e43-53d45be7d1fe")
+	)
+	(wire
+		(pts
+			(xy 63.5 54.61) (xy 80.01 54.61)
 		)
 		(stroke
 			(width 0)
@@ -793,37 +817,47 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 38.1) (xy 72.39 38.1)
+			(xy 246.38 116.84) (xy 242.57 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "12f49555-4fab-42e8-b458-5fdfa3adb7cf")
+		(uuid "11109d94-aad9-47e1-ba90-fff873b8c116")
 	)
 	(wire
 		(pts
-			(xy 90.17 50.8) (xy 90.17 58.42)
+			(xy 209.55 46.99) (xy 219.71 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "176b7545-bb87-444d-8935-067b9471651c")
+		(uuid "1b609171-26cd-4265-918e-0b4a4977574c")
 	)
 	(wire
 		(pts
-			(xy 81.28 38.1) (xy 90.17 38.1)
+			(xy 246.38 46.99) (xy 246.38 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f4f0aac-3384-40eb-bbf0-c096ba241b48")
+		(uuid "1c72fc11-bf82-424f-8b98-1fe4df9a2023")
 	)
 	(wire
 		(pts
-			(xy 34.29 60.96) (xy 27.94 60.96)
+			(xy 209.55 59.69) (xy 209.55 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff58c03-abd4-41da-ac53-7fe86ef3c3fc")
+	)
+	(wire
+		(pts
+			(xy 69.85 57.15) (xy 63.5 57.15)
 		)
 		(stroke
 			(width 0)
@@ -833,27 +867,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 50.8) (xy 72.39 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "274d2b82-abee-40a4-b43c-f1ef9ef07144")
-	)
-	(wire
-		(pts
-			(xy 72.39 38.1) (xy 72.39 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a9a6cb0-579f-492c-9cd1-0683f8e40a14")
-	)
-	(wire
-		(pts
-			(xy 72.39 80.01) (xy 72.39 106.68)
+			(xy 66.04 81.28) (xy 66.04 107.95)
 		)
 		(stroke
 			(width 0)
@@ -863,17 +877,37 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 38.1) (xy 44.45 38.1)
+			(xy 217.17 101.6) (xy 228.6 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34da13dc-9917-468c-945c-c02d475441df")
+		(uuid "37cb84e9-da3b-4e5b-b10a-4482bd27e8db")
 	)
 	(wire
 		(pts
-			(xy 72.39 106.68) (xy 86.36 106.68)
+			(xy 209.55 116.84) (xy 217.17 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca7ee15-65aa-4950-a205-9baa30a515f5")
+	)
+	(wire
+		(pts
+			(xy 246.38 114.3) (xy 242.57 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4550968a-54b8-425e-81b2-5e925d17f5f2")
+	)
+	(wire
+		(pts
+			(xy 66.04 107.95) (xy 80.01 107.95)
 		)
 		(stroke
 			(width 0)
@@ -883,17 +917,67 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 38.1) (xy 107.95 38.1)
+			(xy 217.17 114.3) (xy 217.17 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f332079-9e0f-4b79-ba27-c56e003a3644")
+		(uuid "529c1bb8-1dde-4dae-97f3-69570c21e127")
 	)
 	(wire
 		(pts
-			(xy 60.96 106.68) (xy 60.96 104.14)
+			(xy 209.55 114.3) (xy 217.17 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55cbff15-508c-4a03-8cc6-d4b164c969b8")
+	)
+	(wire
+		(pts
+			(xy 228.6 59.69) (xy 228.6 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "562c37d9-33c4-4d17-bdf3-0329f986532f")
+	)
+	(wire
+		(pts
+			(xy 80.01 34.29) (xy 68.58 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5678c569-15e4-42b1-b608-56e8aa366494")
+	)
+	(wire
+		(pts
+			(xy 255.27 67.31) (xy 264.16 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58144ab7-1c75-4a1d-bcc9-6bbadd764a43")
+	)
+	(wire
+		(pts
+			(xy 228.6 67.31) (xy 237.49 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dd02244-1460-4462-84e2-6b028621e1e6")
+	)
+	(wire
+		(pts
+			(xy 54.61 107.95) (xy 54.61 105.41)
 		)
 		(stroke
 			(width 0)
@@ -903,47 +987,47 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 38.1) (xy 90.17 45.72)
+			(xy 200.66 67.31) (xy 209.55 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "64fcea3f-072b-433f-b39e-259387272b7f")
+		(uuid "66f0f611-58ae-44ee-8d09-a3998473a2c8")
 	)
 	(wire
 		(pts
-			(xy 99.06 58.42) (xy 107.95 58.42)
+			(xy 219.71 67.31) (xy 228.6 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6b387c1d-90e4-4d4f-bef9-0a5ee79320a3")
+		(uuid "68f4224f-08dd-488c-9b36-72cfbfbecc05")
 	)
 	(wire
 		(pts
-			(xy 44.45 38.1) (xy 53.34 38.1)
+			(xy 264.16 46.99) (xy 264.16 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6f1df9b6-f186-4fa1-846d-542cd07c23b4")
+		(uuid "6c4aa056-97f6-45dd-b5c4-87f527176876")
 	)
 	(wire
 		(pts
-			(xy 53.34 58.42) (xy 63.5 58.42)
+			(xy 200.66 46.99) (xy 200.66 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "73c2afa1-5304-406e-b502-3a003402f6f4")
+		(uuid "6eb029cf-1be0-4e31-8a67-af1a3d069b61")
 	)
 	(wire
 		(pts
-			(xy 27.94 38.1) (xy 33.02 38.1)
+			(xy 63.5 34.29) (xy 68.58 34.29)
 		)
 		(stroke
 			(width 0)
@@ -953,17 +1037,27 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 50.8) (xy 81.28 58.42)
+			(xy 217.17 128.27) (xy 217.17 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7c71f0c5-0b19-4cc0-a2bf-508f129bc782")
+		(uuid "79e43c28-4d90-4db7-b808-48bf5a1b9662")
 	)
 	(wire
 		(pts
-			(xy 72.39 80.01) (xy 72.39 78.74)
+			(xy 228.6 128.27) (xy 217.17 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a49b73c-990a-46d0-8e86-fb25d25cc131")
+	)
+	(wire
+		(pts
+			(xy 66.04 81.28) (xy 66.04 80.01)
 		)
 		(stroke
 			(width 0)
@@ -973,17 +1067,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 38.1) (xy 81.28 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e0a7b41-0c06-4a8c-9099-ac3b5508ebbc")
-	)
-	(wire
-		(pts
-			(xy 86.36 106.68) (xy 86.36 104.14)
+			(xy 80.01 107.95) (xy 80.01 105.41)
 		)
 		(stroke
 			(width 0)
@@ -993,7 +1077,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 106.68) (xy 60.96 106.68)
+			(xy 66.04 107.95) (xy 54.61 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1003,17 +1087,67 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 38.1) (xy 81.28 38.1)
+			(xy 237.49 59.69) (xy 237.49 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81adb082-2398-4e91-9323-1886a50eecdb")
+		(uuid "82b71fd9-a838-4368-a6bc-15c392a81fc4")
 	)
 	(wire
 		(pts
-			(xy 53.34 92.71) (xy 60.96 92.71)
+			(xy 228.6 128.27) (xy 242.57 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8885cda3-9f4e-420f-8d01-51d2b2ed3bed")
+	)
+	(wire
+		(pts
+			(xy 242.57 114.3) (xy 242.57 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fcd4d36-42a0-48db-837f-c73a0d3c343a")
+	)
+	(wire
+		(pts
+			(xy 189.23 46.99) (xy 189.23 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90e9cacb-afdb-410f-adc2-3922a1ef01ce")
+	)
+	(wire
+		(pts
+			(xy 217.17 118.11) (xy 217.17 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9111dda7-f069-4692-971f-7597a7e3ac89")
+	)
+	(wire
+		(pts
+			(xy 200.66 59.69) (xy 200.66 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "917af97b-ee79-40ce-be26-2a9000b142e5")
+	)
+	(wire
+		(pts
+			(xy 46.99 93.98) (xy 54.61 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1023,17 +1157,27 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 58.42) (xy 53.34 58.42)
+			(xy 190.5 69.85) (xy 184.15 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "987586fd-dbed-41ce-b7d8-c7b5433a2133")
+		(uuid "9447efed-4276-477e-80cc-87729a35d09c")
 	)
 	(wire
 		(pts
-			(xy 53.34 95.25) (xy 60.96 95.25)
+			(xy 264.16 67.31) (xy 264.16 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95135003-d5dd-4355-905c-568027e3bc57")
+	)
+	(wire
+		(pts
+			(xy 46.99 96.52) (xy 54.61 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1043,17 +1187,37 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 38.1) (xy 99.06 38.1)
+			(xy 242.57 116.84) (xy 242.57 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e0bebee-a873-4b74-8ed4-004a9627dcd7")
+		(uuid "9f7cab1b-d593-478a-83d8-a35a2286b126")
 	)
 	(wire
 		(pts
-			(xy 60.96 96.52) (xy 60.96 95.25)
+			(xy 219.71 59.69) (xy 219.71 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fea4194-6375-4955-9eaf-6ac299ae0d19")
+	)
+	(wire
+		(pts
+			(xy 228.6 101.6) (xy 228.6 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0284c2f-d96c-4c17-b99c-8f8b77789110")
+	)
+	(wire
+		(pts
+			(xy 54.61 97.79) (xy 54.61 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1063,7 +1227,27 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 80.01) (xy 86.36 80.01)
+			(xy 255.27 59.69) (xy 255.27 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f1c5a1-db43-4ef2-a838-a312c47801d2")
+	)
+	(wire
+		(pts
+			(xy 255.27 46.99) (xy 264.16 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1b0fc00-ecf2-4cc1-b156-98d6fcd9e4be")
+	)
+	(wire
+		(pts
+			(xy 66.04 81.28) (xy 80.01 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1073,47 +1257,57 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 38.1) (xy 63.5 45.72)
+			(xy 209.55 46.99) (xy 209.55 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a59ad4b4-3795-457e-877e-8863afbdb145")
+		(uuid "ae08d824-da5b-4aa9-9104-8c8fd3271fa4")
 	)
 	(wire
 		(pts
-			(xy 53.34 38.1) (xy 53.34 45.72)
+			(xy 228.6 101.6) (xy 242.57 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ada284c5-e063-4199-8247-f99c81b8dd77")
+		(uuid "b238535e-e4b1-47a0-abb7-99f1ea369617")
 	)
 	(wire
 		(pts
-			(xy 90.17 58.42) (xy 99.06 58.42)
+			(xy 184.15 67.31) (xy 200.66 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0c9ed1a-e172-40b0-b3e1-c1e43a3776fb")
+		(uuid "b73d608d-bc52-4548-b0fb-465fa1ed8c6a")
 	)
 	(wire
 		(pts
-			(xy 63.5 50.8) (xy 63.5 58.42)
+			(xy 209.55 67.31) (xy 219.71 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b1378669-f86c-4ff5-9819-112c1f767ebd")
+		(uuid "bc04faf2-1005-4904-bb44-c954c28f9749")
 	)
 	(wire
 		(pts
-			(xy 90.17 92.71) (xy 86.36 92.71)
+			(xy 219.71 46.99) (xy 228.6 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be279964-c038-4b98-bfb4-0acd77825358")
+	)
+	(wire
+		(pts
+			(xy 83.82 93.98) (xy 80.01 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1123,27 +1317,17 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 50.8) (xy 99.06 58.42)
+			(xy 246.38 67.31) (xy 246.38 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c71ca873-6505-42ea-b1a7-af7990c8320a")
+		(uuid "c5bb62cd-ce42-43b0-a559-9d08198fa764")
 	)
 	(wire
 		(pts
-			(xy 63.5 58.42) (xy 72.39 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c79c99c6-154f-4b53-9747-36d9c181c9c3")
-	)
-	(wire
-		(pts
-			(xy 33.02 38.1) (xy 33.02 31.75)
+			(xy 68.58 34.29) (xy 68.58 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1153,7 +1337,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 50.8) (xy 44.45 58.42)
+			(xy 80.01 34.29) (xy 80.01 54.61)
 		)
 		(stroke
 			(width 0)
@@ -1163,7 +1347,17 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 95.25) (xy 86.36 95.25)
+			(xy 184.15 46.99) (xy 189.23 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0552095-ad6c-471a-8319-81eec8f4fcb6")
+	)
+	(wire
+		(pts
+			(xy 83.82 96.52) (xy 80.01 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1173,7 +1367,17 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 92.71) (xy 86.36 87.63)
+			(xy 228.6 101.6) (xy 228.6 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d863896b-4083-4999-a556-e79578e42df7")
+	)
+	(wire
+		(pts
+			(xy 80.01 93.98) (xy 80.01 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1183,17 +1387,77 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 50.8) (xy 53.34 58.42)
+			(xy 237.49 46.99) (xy 246.38 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dc80d8db-db16-4720-a9b1-3cacf3c2f477")
+		(uuid "de6a97ae-1b14-4194-9a83-aec3b5b82f0e")
 	)
 	(wire
 		(pts
-			(xy 86.36 95.25) (xy 86.36 96.52)
+			(xy 237.49 46.99) (xy 237.49 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e34816b6-9ae9-47e7-9d4e-4aaaad20e4c7")
+	)
+	(wire
+		(pts
+			(xy 242.57 128.27) (xy 242.57 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e45ffcc0-da9f-445c-85b8-a4b65215e8a2")
+	)
+	(wire
+		(pts
+			(xy 246.38 59.69) (xy 246.38 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58293a1-7db8-4b67-81e0-0a5bb2c859e4")
+	)
+	(wire
+		(pts
+			(xy 246.38 67.31) (xy 255.27 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7ae6aff-d004-43b8-988a-e419e00a952a")
+	)
+	(wire
+		(pts
+			(xy 184.15 49.53) (xy 187.96 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7e5a428-97d3-455a-8b85-312cc7474571")
+	)
+	(wire
+		(pts
+			(xy 255.27 46.99) (xy 255.27 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9e0462e-82bf-4e05-a97f-f0f77c126543")
+	)
+	(wire
+		(pts
+			(xy 80.01 96.52) (xy 80.01 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1203,17 +1467,17 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 38.1) (xy 63.5 38.1)
+			(xy 228.6 46.99) (xy 237.49 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ec1d07eb-e391-4b92-b7bb-e6e4b8ea0963")
+		(uuid "ed27c486-23fb-4b5a-89b7-b564ab37a692")
 	)
 	(wire
 		(pts
-			(xy 60.96 80.01) (xy 72.39 80.01)
+			(xy 54.61 81.28) (xy 66.04 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1223,7 +1487,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 92.71) (xy 60.96 87.63)
+			(xy 54.61 93.98) (xy 54.61 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1233,56 +1497,56 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 58.42) (xy 90.17 58.42)
+			(xy 200.66 46.99) (xy 209.55 46.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f292ab3c-8697-4535-a6a5-a8809fb81870")
+		(uuid "fbb9810f-6935-4ff0-9242-1a0509022769")
 	)
 	(wire
 		(pts
-			(xy 107.95 38.1) (xy 107.95 45.72)
+			(xy 228.6 46.99) (xy 228.6 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "fa3ea327-b396-4a0e-a963-a69059e6b157")
+		(uuid "ff2128e0-4d7f-4596-a22f-d6cc7986fb17")
 	)
-	(wire
-		(pts
-			(xy 99.06 38.1) (xy 99.06 45.72)
+	(text "Type I: Trace Element"
+		(exclude_from_sim no)
+		(at 32.258 24.384 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe5865b3-250d-412b-9f9d-cd5f993ae410")
+		(uuid "3bbe0fb9-4f89-4d05-a62f-a7b70ef0406f")
 	)
-	(wire
-		(pts
-			(xy 72.39 58.42) (xy 81.28 58.42)
+	(text "Type II: Discrete Resistors"
+		(exclude_from_sim no)
+		(at 225.806 34.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe6039e4-1a08-4eee-b723-5f5fcb96b4e1")
+		(uuid "81cb30f9-ef20-4053-8746-accce670f3e4")
 	)
-	(global_label "Vdd_Heater"
-		(shape input)
-		(at 33.02 31.75 90)
+	(global_label "GND_1"
+		(shape passive)
+		(at 67.31 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "c2356957-0570-43f9-8b7c-674ed8c16686")
+		(uuid "3c0ba416-b9d6-4820-95e5-89343189a13d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 33.02 31.75 0)
+			(at 67.31 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,9 +1555,89 @@
 			)
 		)
 	)
-	(global_label "Vdd_Heater"
+	(global_label "Vdd_Heater_2"
 		(shape input)
-		(at 72.39 78.74 90)
+		(at 228.6 100.33 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "611443ec-7334-4435-bd77-0319be6f6a74")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 228.6 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_2"
+		(shape passive)
+		(at 187.96 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8bebdbb0-f94f-4c58-aa32-fbb2b0dec895")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 187.96 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_1"
+		(shape passive)
+		(at 69.85 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac1cb4e5-398f-4216-904a-23d305f2c080")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vdd_Heater_1"
+		(shape input)
+		(at 68.58 27.94 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c2356957-0570-43f9-8b7c-674ed8c16686")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 68.58 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vdd_Heater_1"
+		(shape input)
+		(at 66.04 80.01 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1302,7 +1646,67 @@
 		)
 		(uuid "cd382de1-ce4b-4328-86c2-13fa6c011a49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.39 78.74 0)
+			(at 66.04 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "HGND"
+		(shape input)
+		(at 246.38 69.85 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd9018b2-3fa3-4cb3-8067-902dae0992cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.38 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Vdd_Heater_2"
+		(shape input)
+		(at 189.23 40.64 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cdccad72-5e2a-46b8-997f-bcafda93f3ea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.23 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND_2"
+		(shape passive)
+		(at 190.5 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef415643-4dea-4845-a566-181bcdef0a36")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.5 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1313,7 +1717,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 60.96 100.33 0)
+		(at 54.61 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1322,7 +1726,7 @@
 		(fields_autoplaced yes)
 		(uuid "00ab6a45-cb30-42c9-9667-15b58b584574")
 		(property "Reference" "TH3"
-			(at 63.5 99.3775 0)
+			(at 57.15 100.6475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1331,7 +1735,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 63.5 101.9175 0)
+			(at 57.15 103.1875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1340,7 +1744,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 60.96 99.06 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1349,7 +1753,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 99.06 0)
+			(at 54.61 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1358,7 +1762,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 100.33 0)
+			(at 54.61 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1383,16 +1787,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 44.45 48.26 180)
+		(at 264.16 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2000f5c0-4875-4dae-8ad2-71ede95339d7")
-		(property "Reference" "R1"
-			(at 46.99 46.9899 0)
+		(uuid "03076c8e-b353-48b8-925e-a163410c3e53")
+		(property "Reference" "R16"
+			(at 266.7 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1401,7 +1805,7 @@
 			)
 		)
 		(property "Value" "50"
-			(at 46.99 49.5299 0)
+			(at 266.7 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1409,8 +1813,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 44.45 48.26 0)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 264.16 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,7 +1823,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 48.26 0)
+			(at 264.16 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1428,7 +1832,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 44.45 48.26 0)
+			(at 264.16 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1437,50 +1841,50 @@
 			)
 		)
 		(pin "2"
-			(uuid "e96c9e23-a0e3-4dfb-870c-f17da1d60170")
+			(uuid "281e6071-3c30-4c2e-ac94-680515a67f1e")
 		)
 		(pin "1"
-			(uuid "11f1f896-4e4b-40b0-879e-5c4acad8381d")
+			(uuid "80378c4a-2eb9-429c-a449-6b8234dc81c3")
 		)
 		(instances
-			(project ""
+			(project "FrontEndPrototype_Rev2_Heater"
 				(path "/e436919c-dde8-4a59-b391-4407947ae518"
-					(reference "R1")
+					(reference "R16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 81.28 48.26 180)
+		(lib_id "Mechanical:MountingHole")
+		(at 255.27 149.86 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "20f3dedc-99fb-4eaf-89ba-7090fbb9238c")
-		(property "Reference" "R5"
-			(at 83.82 46.9899 0)
+		(uuid "0ca738c8-18c8-4d70-a006-c30117567825")
+		(property "Reference" "H16"
+			(at 257.81 148.5899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "50"
-			(at 83.82 49.5299 0)
+		(property "Value" "PogoPinClearanceHole"
+			(at 257.81 151.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 81.28 48.26 0)
+		(property "Footprint" "GenIILibrary:PogoClearanceHole"
+			(at 255.27 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1489,7 +1893,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 48.26 0)
+			(at 255.27 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1497,95 +1901,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 81.28 48.26 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 255.27 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "8cee5298-c864-4a05-aaac-efe9ecd36561")
-		)
-		(pin "1"
-			(uuid "659de8b6-f824-4433-b14b-c1a1c522f6ab")
 		)
 		(instances
 			(project "FrontEndPrototype_Rev2_Heater"
 				(path "/e436919c-dde8-4a59-b391-4407947ae518"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 53.34 48.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3621ffee-d3b8-4c8a-9e64-944850d54696")
-		(property "Reference" "R2"
-			(at 55.88 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "50"
-			(at 55.88 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 53.34 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 53.34 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b52fb3aa-61f9-4a45-a12e-f58269732970")
-		)
-		(pin "1"
-			(uuid "c6f3be4b-e552-477d-a3b0-49e860252d70")
-		)
-		(instances
-			(project "FrontEndPrototype_Rev2_Heater"
-				(path "/e436919c-dde8-4a59-b391-4407947ae518"
-					(reference "R2")
+					(reference "H16")
 					(unit 1)
 				)
 			)
@@ -1593,16 +1921,15 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 22.86 38.1 0)
+		(at 204.47 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38a08ea3-1586-45c3-b348-366e5f1b5592")
-		(property "Reference" "J1"
-			(at 23.495 33.02 0)
+		(uuid "190b0abc-aa02-4541-b097-87ef8867b7d3")
+		(property "Reference" "J7"
+			(at 205.105 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1610,7 +1937,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 23.495 35.56 0)
+			(at 205.105 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1618,7 +1945,7 @@
 			)
 		)
 		(property "Footprint" "GenIILibrary:Samtec_Pin_Socket_SS_102_G_2"
-			(at 22.86 38.1 0)
+			(at 204.47 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1627,7 +1954,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 38.1 0)
+			(at 204.47 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1636,7 +1963,681 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 38.1 0)
+			(at 204.47 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5bef2cf7-daee-4c5c-81f4-bfe1ffdecc20")
+		)
+		(pin "2"
+			(uuid "75218492-02ee-42ca-a185-72e1fedfb502")
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_NTC")
+		(at 217.17 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1edbd8b7-e469-4219-b1f7-bcfc019f28c4")
+		(property "Reference" "TH5"
+			(at 219.71 104.4575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Thermistor_NTC"
+			(at 219.71 106.9975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 217.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 217.17 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "680f14d5-6327-42b8-a5f0-5355993269de")
+		)
+		(pin "2"
+			(uuid "074cb16b-5242-454f-8f07-66bb77bc6f92")
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "TH5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 228.6 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25a51892-1bb9-4d3f-94a5-b08c54a63c9e")
+		(property "Reference" "R12"
+			(at 231.14 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50"
+			(at 231.14 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 228.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 228.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7bd34895-ac18-4f0e-85ea-2f77471c18ca")
+		)
+		(pin "1"
+			(uuid "669e5320-7508-4132-96a3-0e8ec39d4825")
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 193.04 140.97 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "25a9f817-61d2-4842-8f9b-b06889f8a004")
+		(property "Reference" "H11"
+			(at 195.58 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PogoPinClearanceHole"
+			(at 195.58 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GenIILibrary:PogoClearanceHole"
+			(at 193.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 193.04 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "H11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 22.86 148.59 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "26a0e4ca-32ee-40b2-90f8-d7fae514d9ca")
+		(property "Reference" "H2"
+			(at 25.4 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PogoPinClearanceHole"
+			(at 25.4 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GenIILibrary:PogoClearanceHole"
+			(at 22.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 22.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 22.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 237.49 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2eb1bdb4-af48-4700-864f-0e3608406303")
+		(property "Reference" "R13"
+			(at 240.03 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50"
+			(at 240.03 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 237.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 237.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 237.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fb340199-76d6-438b-b045-f0b1334ae610")
+		)
+		(pin "1"
+			(uuid "ce0b1f94-1c5d-43f9-9ff9-a63cbc52838e")
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 55.88 139.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3274e8a3-558c-4f71-a6cd-99dd701e1921")
+		(property "Reference" "H3"
+			(at 58.42 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PogoPinClearanceHole"
+			(at 58.42 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GenIILibrary:PogoClearanceHole"
+			(at 55.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 55.88 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 87.63 139.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "32bf370b-5110-48cc-a3d2-3e9229844b07")
+		(property "Reference" "H5"
+			(at 90.17 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PogoPinClearanceHole"
+			(at 90.17 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GenIILibrary:PogoClearanceHole"
+			(at 87.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 87.63 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 246.38 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "33d46f3c-d22f-4cf4-bcf9-f2305637225a")
+		(property "Reference" "R14"
+			(at 248.92 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50"
+			(at 248.92 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 246.38 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 246.38 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d154f636-fa88-4331-881c-3c23915b65a9")
+		)
+		(pin "1"
+			(uuid "5820907b-3b04-44bd-a944-58700501dd7b")
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 219.71 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36df31aa-88fe-4627-b90a-f4b4aaba8489")
+		(property "Reference" "R11"
+			(at 222.25 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50"
+			(at 222.25 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 219.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 219.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 219.71 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b02c0a6-cb70-40c2-b70f-e410cbb21d3a")
+		)
+		(pin "1"
+			(uuid "04b76984-3c16-4b8a-a19b-a10da8757133")
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 58.42 34.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38a08ea3-1586-45c3-b348-366e5f1b5592")
+		(property "Reference" "J1"
+			(at 59.055 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 59.055 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GenIILibrary:Samtec_Pin_Socket_SS_102_G_2"
+			(at 58.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1660,17 +2661,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Thermistor_NTC")
-		(at 60.96 83.82 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 160.02 140.97 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4d60605b-314c-417c-8934-a9e17bab00c8")
-		(property "Reference" "TH1"
-			(at 63.5 82.8675 0)
+		(uuid "4aba2ce6-e972-4899-9d63-d942a6910420")
+		(property "Reference" "H9"
+			(at 162.56 139.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1678,8 +2679,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Thermistor_NTC"
-			(at 63.5 85.4075 0)
+		(property "Value" "PogoPinClearanceHole"
+			(at 162.56 142.2399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1687,8 +2688,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 60.96 82.55 0)
+		(property "Footprint" "GenIILibrary:PogoClearanceHole"
+			(at 160.02 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1697,7 +2698,135 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 82.55 0)
+			(at 160.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 160.02 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 55.88 148.59 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c1ce26c-1ff4-47b9-a978-d6b7056ae177")
+		(property "Reference" "H4"
+			(at 58.42 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PogoPinClearanceHole"
+			(at 58.42 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GenIILibrary:PogoClearanceHole"
+			(at 55.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 55.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 55.88 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_NTC")
+		(at 242.57 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ce985bd-2d6b-4fe9-9574-739e42e11f5b")
+		(property "Reference" "TH7"
+			(at 245.11 104.4575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Thermistor_NTC"
+			(at 245.11 106.9975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 242.57 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1706,7 +2835,77 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 83.82 0)
+			(at 242.57 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9780aa86-c1eb-40ce-82e6-fd4963cee881")
+		)
+		(pin "2"
+			(uuid "5ec34079-ab6f-401b-9ada-5cd56973b993")
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "TH7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_NTC")
+		(at 54.61 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4d60605b-314c-417c-8934-a9e17bab00c8")
+		(property "Reference" "TH1"
+			(at 57.15 84.1375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Thermistor_NTC"
+			(at 57.15 86.6775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 54.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 54.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1731,7 +2930,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 95.25 92.71 0)
+		(at 88.9 93.98 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1740,7 +2939,7 @@
 		(dnp no)
 		(uuid "4e71041a-2441-49fa-a5a2-abcb694faa4f")
 		(property "Reference" "J4"
-			(at 96.52 95.25 0)
+			(at 90.17 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1749,7 +2948,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 96.52 92.71 0)
+			(at 90.17 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1758,7 +2957,7 @@
 			)
 		)
 		(property "Footprint" "GenIILibrary:Samtec_Pin_Socket_SS_102_G_2"
-			(at 95.25 92.71 0)
+			(at 88.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1767,7 +2966,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 95.25 92.71 0)
+			(at 88.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1776,7 +2975,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 95.25 92.71 0)
+			(at 88.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1800,35 +2999,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 72.39 48.26 180)
+		(lib_id "Mechanical:MountingHole")
+		(at 22.86 139.7 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "61f8423a-91c2-4041-8a3d-a4f40234e6c3")
-		(property "Reference" "R4"
-			(at 74.93 46.9899 0)
+		(uuid "5218c1fd-1170-4149-8c0a-5da20fa2e7eb")
+		(property "Reference" "H1"
+			(at 25.4 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "50"
-			(at 74.93 49.5299 0)
+		(property "Value" "PogoPinClearanceHole"
+			(at 25.4 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 72.39 48.26 0)
+		(property "Footprint" "GenIILibrary:PogoClearanceHole"
+			(at 22.86 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1837,7 +3036,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 48.26 0)
+			(at 22.86 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1845,25 +3044,19 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, small US symbol"
-			(at 72.39 48.26 0)
+		(property "Description" "Mounting Hole without connection"
+			(at 22.86 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "ec76377b-2365-4d4c-ba70-ac199aca6edd")
-		)
-		(pin "1"
-			(uuid "6de40821-205a-4659-b7e4-2ace538a2248")
 		)
 		(instances
-			(project "FrontEndPrototype_Rev2_Heater"
+			(project ""
 				(path "/e436919c-dde8-4a59-b391-4407947ae518"
-					(reference "R4")
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -1871,16 +3064,16 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 90.17 48.26 180)
+		(at 200.66 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6d31d5dd-9d7f-481f-ad4c-e3205a7133b2")
-		(property "Reference" "R6"
-			(at 92.71 46.9899 0)
+		(uuid "701893db-5484-4836-b234-0e6c01b4c101")
+		(property "Reference" "R9"
+			(at 203.2 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1889,7 +3082,7 @@
 			)
 		)
 		(property "Value" "50"
-			(at 92.71 49.5299 0)
+			(at 203.2 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1897,8 +3090,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 90.17 48.26 0)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 200.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1907,7 +3100,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 90.17 48.26 0)
+			(at 200.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1916,7 +3109,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 90.17 48.26 0)
+			(at 200.66 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1925,32 +3118,32 @@
 			)
 		)
 		(pin "2"
-			(uuid "2a3ef1ab-b4ac-43a8-951b-4f017b52fa7a")
+			(uuid "0fc0051f-2570-4b8c-89d0-ddff26e62d39")
 		)
 		(pin "1"
-			(uuid "9b87bb0e-4a51-4fcf-940c-ae52c293e686")
+			(uuid "8835a55f-0586-4ef3-a635-c35691598ba5")
 		)
 		(instances
 			(project "FrontEndPrototype_Rev2_Heater"
 				(path "/e436919c-dde8-4a59-b391-4407947ae518"
-					(reference "R6")
+					(reference "R9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 107.95 48.26 180)
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 251.46 114.3 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "75ee87c6-df4e-4751-bc7f-926b49a46abc")
-		(property "Reference" "R8"
-			(at 110.49 46.9899 0)
+		(uuid "70f4673a-5483-4a48-b763-8a1b3807fa3d")
+		(property "Reference" "J8"
+			(at 252.73 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1958,8 +3151,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "50"
-			(at 110.49 49.5299 0)
+		(property "Value" "Conn_01x02_Pin"
+			(at 252.73 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1967,8 +3160,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 107.95 48.26 0)
+		(property "Footprint" "GenIILibrary:Samtec_Pin_Socket_SS_102_G_2"
+			(at 251.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,148 +3170,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 107.95 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 107.95 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "436688a3-9f02-4d89-b09e-6e3acba23c1e")
-		)
-		(pin "1"
-			(uuid "087d0cd6-7977-4064-bf78-a68e6d70b593")
-		)
-		(instances
-			(project "FrontEndPrototype_Rev2_Heater"
-				(path "/e436919c-dde8-4a59-b391-4407947ae518"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 63.5 48.26 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ea41849-9b04-4993-b489-8796d60977cf")
-		(property "Reference" "R3"
-			(at 66.04 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "50"
-			(at 66.04 49.5299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 63.5 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 63.5 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 63.5 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f378cded-0045-4247-a8fe-47ded77158c9")
-		)
-		(pin "1"
-			(uuid "e4a54d5b-a1ec-47f2-be49-631434ad2597")
-		)
-		(instances
-			(project "FrontEndPrototype_Rev2_Heater"
-				(path "/e436919c-dde8-4a59-b391-4407947ae518"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 34.29 60.96 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7eb7b2e2-e940-4a9b-b9c4-1f605297c28d")
-		(property "Reference" "#PWR068"
-			(at 40.64 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 37.5412 61.087 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 34.29 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 34.29 60.96 0)
+			(at 251.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2127,7 +3179,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 34.29 60.96 0)
+			(at 251.46 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2136,22 +3188,212 @@
 			)
 		)
 		(pin "1"
-			(uuid "5115013f-4f2f-4c39-80fa-e03014656543")
+			(uuid "ca724399-1a67-4978-afc0-fc9ca3e3f84b")
+		)
+		(pin "2"
+			(uuid "15e5cacf-ed71-4494-9736-f16b6b5a40cb")
 		)
 		(instances
-			(project "FrontEndPrototype_Rev1"
-				(path "/5bbe1190-7cf9-4e92-afa2-f39bae3944d2"
-					(reference "#PWR068")
-					(unit 1)
-				)
-				(path "/5bbe1190-7cf9-4e92-afa2-f39bae3944d2/94ac1245-141e-4aef-b2bd-34657dcde8be"
-					(reference "#PWR079")
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "J8")
 					(unit 1)
 				)
 			)
-			(project "FrontEndPrototype_Rev1_Heater"
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 179.07 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7157c6b6-9c13-4e23-bd3e-1f2d84f3272f")
+		(property "Reference" "J6"
+			(at 179.324 61.214 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 185.42 64.516 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "GenIILibrary:Samtec_Pin_Socket_SS_102_G_2"
+			(at 179.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57831a04-d03e-4212-a83f-d57638d5c6d3")
+		)
+		(pin "2"
+			(uuid "3e657576-9d45-4421-a3b7-1cd13957e210")
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
 				(path "/e436919c-dde8-4a59-b391-4407947ae518"
-					(reference "#PWR02")
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 255.27 140.97 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e46efc6-f166-4d08-9c62-5adbd6b3da4d")
+		(property "Reference" "H15"
+			(at 257.81 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PogoPinClearanceHole"
+			(at 257.81 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GenIILibrary:PogoClearanceHole"
+			(at 255.27 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 255.27 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 255.27 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "H15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 193.04 149.86 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8524f10b-a4ca-42d2-950f-2c0952de6eca")
+		(property "Reference" "H12"
+			(at 195.58 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PogoPinClearanceHole"
+			(at 195.58 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GenIILibrary:PogoClearanceHole"
+			(at 193.04 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 193.04 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "H12")
 					(unit 1)
 				)
 			)
@@ -2159,7 +3401,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 86.36 100.33 0)
+		(at 80.01 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2168,7 +3410,7 @@
 		(fields_autoplaced yes)
 		(uuid "8cd7e50c-798b-42d1-b04d-dc52944472e7")
 		(property "Reference" "TH4"
-			(at 88.9 99.3775 0)
+			(at 82.55 100.6475 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +3419,7 @@
 			)
 		)
 		(property "Value" "Thermistor_NTC"
-			(at 88.9 101.9175 0)
+			(at 82.55 103.1875 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +3428,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 86.36 99.06 0)
+			(at 80.01 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2195,7 +3437,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 99.06 0)
+			(at 80.01 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2204,7 +3446,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 100.33 0)
+			(at 80.01 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2228,17 +3470,213 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 99.06 48.26 180)
+		(lib_id "Mechanical:MountingHole")
+		(at 118.11 139.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "997bc602-c3af-44ce-95ba-521cde03c740")
+		(property "Reference" "H7"
+			(at 120.65 138.4299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PogoPinClearanceHole"
+			(at 120.65 140.9699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GenIILibrary:PogoClearanceHole"
+			(at 118.11 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 118.11 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 118.11 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 224.79 149.86 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac6f7997-fecf-44e7-8326-40a5150af528")
+		(property "Reference" "H14"
+			(at 227.33 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PogoPinClearanceHole"
+			(at 227.33 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GenIILibrary:PogoClearanceHole"
+			(at 224.79 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 224.79 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "H14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 179.07 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "97c9c67c-5fc2-4be9-a604-48a751df74ac")
-		(property "Reference" "R7"
-			(at 101.6 46.9899 0)
+		(uuid "b09d1ba9-2eaa-4afe-a7a3-ec22ff6844ba")
+		(property "Reference" "J5"
+			(at 179.705 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 179.705 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GenIILibrary:Samtec_Pin_Socket_SS_102_G_2"
+			(at 179.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc38c4a7-2763-4976-b85c-56c74b68a165")
+		)
+		(pin "2"
+			(uuid "b5d1932f-1899-4c85-a78e-07facabb5693")
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 255.27 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf80cbf0-6a3a-4162-92f0-ad4a836a3e19")
+		(property "Reference" "R15"
+			(at 257.81 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2247,7 +3685,7 @@
 			)
 		)
 		(property "Value" "50"
-			(at 101.6 49.5299 0)
+			(at 257.81 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2255,8 +3693,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 99.06 48.26 0)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 255.27 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2265,7 +3703,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 48.26 0)
+			(at 255.27 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2274,7 +3712,7 @@
 			)
 		)
 		(property "Description" "Resistor, small US symbol"
-			(at 99.06 48.26 0)
+			(at 255.27 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2283,126 +3721,50 @@
 			)
 		)
 		(pin "2"
-			(uuid "098ab8c4-2ce5-4cfd-b3f4-fbf33714bbfe")
+			(uuid "abca11a9-75d5-47e5-8e5d-df4658f5fbac")
 		)
 		(pin "1"
-			(uuid "800d505d-7d4d-4f92-8330-da644efc436d")
+			(uuid "89e65e3c-e264-4973-976a-4dbe9be68607")
 		)
 		(instances
 			(project "FrontEndPrototype_Rev2_Heater"
 				(path "/e436919c-dde8-4a59-b391-4407947ae518"
-					(reference "R7")
+					(reference "R15")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 31.75 40.64 90)
+		(lib_id "Device:Thermistor_NTC")
+		(at 242.57 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a6336256-5772-4867-86c5-6fb4e8512d05")
-		(property "Reference" "#PWR068"
-			(at 38.1 40.64 0)
+		(fields_autoplaced yes)
+		(uuid "c520384b-fc8d-4cb7-9c5d-f14a281acc90")
+		(property "Reference" "TH8"
+			(at 245.11 120.9675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 35.0012 40.513 90)
+		(property "Value" "Thermistor_NTC"
+			(at 245.11 123.5075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
-				(hide yes)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 31.75 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 31.75 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dc7e402b-9e53-4406-9e4f-4683ae6c120d")
-		)
-		(instances
-			(project "FrontEndPrototype_Rev1"
-				(path "/5bbe1190-7cf9-4e92-afa2-f39bae3944d2"
-					(reference "#PWR068")
-					(unit 1)
-				)
-				(path "/5bbe1190-7cf9-4e92-afa2-f39bae3944d2/94ac1245-141e-4aef-b2bd-34657dcde8be"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-			(project "FrontEndPrototype_Rev1_Heater"
-				(path "/e436919c-dde8-4a59-b391-4407947ae518"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 22.86 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d0c0b7db-22b8-4016-9fc9-32c7da7af4ba")
-		(property "Reference" "J3"
-			(at 23.114 52.324 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 29.21 55.626 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "GenIILibrary:Samtec_Pin_Socket_SS_102_G_2"
-			(at 22.86 58.42 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 242.57 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +3773,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 22.86 58.42 0)
+			(at 242.57 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,7 +3782,76 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 58.42 0)
+			(at 242.57 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3835259-abc3-48f6-8b30-815da6c7c040")
+		)
+		(pin "2"
+			(uuid "b6ae0ba9-8681-4b2e-bc20-4137acc9a6eb")
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "TH8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 58.42 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d0c0b7db-22b8-4016-9fc9-32c7da7af4ba")
+		(property "Reference" "J3"
+			(at 58.674 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 64.77 51.816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "GenIILibrary:Samtec_Pin_Socket_SS_102_G_2"
+			(at 58.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 58.42 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,17 +3875,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Thermistor_NTC")
-		(at 86.36 83.82 0)
+		(lib_id "Mechanical:MountingHole")
+		(at 118.11 148.59 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ecc02cb5-c6bf-45f4-b3cb-65723d9dcdd3")
-		(property "Reference" "TH2"
-			(at 88.9 82.8675 0)
+		(uuid "de20665c-5044-4b44-b712-20b7267451bc")
+		(property "Reference" "H8"
+			(at 120.65 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,8 +3893,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Thermistor_NTC"
-			(at 88.9 85.4075 0)
+		(property "Value" "PogoPinClearanceHole"
+			(at 120.65 149.8599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,8 +3902,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 86.36 82.55 0)
+		(property "Footprint" "GenIILibrary:PogoClearanceHole"
+			(at 118.11 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2481,7 +3912,269 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 82.55 0)
+			(at 118.11 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 118.11 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 87.63 148.59 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0d8fe36-511c-4726-a420-92743d6fe03f")
+		(property "Reference" "H6"
+			(at 90.17 147.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PogoPinClearanceHole"
+			(at 90.17 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GenIILibrary:PogoClearanceHole"
+			(at 87.63 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 87.63 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 209.55 57.15 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e54011a9-8fe9-4100-b364-a51a826fd96d")
+		(property "Reference" "R10"
+			(at 212.09 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50"
+			(at 212.09 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric_Pad1.40x2.65mm_HandSolder"
+			(at 209.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 209.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 209.55 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "11c0b772-b03d-4069-b3d4-a6255b4ee525")
+		)
+		(pin "1"
+			(uuid "bbd431fb-f623-4999-82b8-663da01b6fdc")
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 224.79 140.97 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e951acdb-7d1c-4eb1-9a1e-6f5f0b8c2ae3")
+		(property "Reference" "H13"
+			(at 227.33 139.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PogoPinClearanceHole"
+			(at 227.33 142.2399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GenIILibrary:PogoClearanceHole"
+			(at 224.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 224.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 224.79 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "H13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_NTC")
+		(at 80.01 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecc02cb5-c6bf-45f4-b3cb-65723d9dcdd3")
+		(property "Reference" "TH2"
+			(at 82.55 84.1375 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Thermistor_NTC"
+			(at 82.55 86.6775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 80.01 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 80.01 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2490,7 +4183,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 86.36 83.82 0)
+			(at 80.01 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2514,32 +4207,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 48.26 92.71 0)
+		(lib_id "Device:Thermistor_NTC")
+		(at 217.17 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f51c45ff-7661-498b-ae3b-e5f44799a20c")
-		(property "Reference" "J2"
-			(at 48.895 87.63 0)
+		(fields_autoplaced yes)
+		(uuid "f3296c31-3712-48a3-b75b-f3bf3d290706")
+		(property "Reference" "TH6"
+			(at 219.71 120.9675 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 48.895 90.17 0)
+		(property "Value" "Thermistor_NTC"
+			(at 219.71 123.5075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "GenIILibrary:Samtec_Pin_Socket_SS_102_G_2"
-			(at 48.26 92.71 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 217.17 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2548,7 +4244,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 92.71 0)
+			(at 217.17 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +4253,74 @@
 			)
 		)
 		(property "Description" ""
-			(at 48.26 92.71 0)
+			(at 217.17 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "076c1684-6be1-475d-a010-a05902097193")
+		)
+		(pin "2"
+			(uuid "5a5d9d97-7617-4296-863d-22a86dd7d3ac")
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "TH6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 41.91 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f51c45ff-7661-498b-ae3b-e5f44799a20c")
+		(property "Reference" "J2"
+			(at 42.545 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 42.545 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GenIILibrary:Samtec_Pin_Socket_SS_102_G_2"
+			(at 41.91 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 41.91 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 41.91 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,6 +4338,70 @@
 			(project "FrontEndPrototype_Rev1_Heater"
 				(path "/e436919c-dde8-4a59-b391-4407947ae518"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 160.02 149.86 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff95c52b-dcda-401e-9ae4-0ba9b3dfcb0a")
+		(property "Reference" "H10"
+			(at 162.56 148.5899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PogoPinClearanceHole"
+			(at 162.56 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "GenIILibrary:PogoClearanceHole"
+			(at 160.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 160.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 160.02 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "H10")
 					(unit 1)
 				)
 			)
