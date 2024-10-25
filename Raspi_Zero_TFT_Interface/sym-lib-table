@@ -3,4 +3,6 @@
   (lib (name "2024-09-30_20-32-33")(type "KiCad")(uri "${KIPRJMOD}/ul_541044031/KiCADv6/2024-09-30_20-32-33.kicad_sym")(options "")(descr ""))
   (lib (name "52271-0679")(type "KiCad")(uri "${KIPRJMOD}/Molex_0522710679/52271-0679.kicad_sym")(options "")(descr ""))
   (lib (name "2024-09-30_21-22-34")(type "KiCad")(uri "${KIPRJMOD}/AP5725WG_7/KiCADv6/2024-09-30_21-22-34.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-10-22_14-40-48")(type "KiCad")(uri "${KIPRJMOD}/Molex_522070860/KiCADv6/2024-10-22_14-40-48.kicad_sym")(options "")(descr ""))
+  (lib (name "FrontEndPrototype_Rev1-rescue")(type "KiCad")(uri "C:/Users/cdeli/Desktop/DataCore/TraumaChek/GenII/SchematicAndBoardFiles/FrontEndPrototype_Rev1/FrontEndPrototype_Rev1-rescue.kicad_sym")(options "")(descr ""))
 )

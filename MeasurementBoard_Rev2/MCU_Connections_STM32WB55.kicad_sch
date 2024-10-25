@@ -1509,6 +1509,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 45.72) (xy 59.69 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b6af4d3-6944-4fa5-bc77-23978312ad0d")
+	)
+	(wire
+		(pts
 			(xy 118.11 72.39) (xy 120.65 72.39)
 		)
 		(stroke
@@ -1576,6 +1586,16 @@
 			(type default)
 		)
 		(uuid "ae644d8a-ac76-46c0-a7a3-0ce6af41ac4a")
+	)
+	(wire
+		(pts
+			(xy 57.15 43.18) (xy 59.69 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b865a9de-bed0-4258-ad49-2cd022099a1e")
 	)
 	(wire
 		(pts
@@ -2018,6 +2038,18 @@
 		)
 		(uuid "87cbf8a0-ec76-4b14-832b-03ed8f7aab52")
 	)
+	(hierarchical_label "PE4"
+		(shape output)
+		(at 59.69 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8a1aaad7-d14a-4383-90cb-a36e201c3f32")
+	)
 	(hierarchical_label "Vdd"
 		(shape output)
 		(at 41.91 48.26 180)
@@ -2077,6 +2109,18 @@
 			(justify right)
 		)
 		(uuid "a93ca9d3-62d2-4e34-a6f8-767a0603fe6d")
+	)
+	(hierarchical_label "PB2"
+		(shape output)
+		(at 59.69 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac41ede7-8834-4f43-9a37-8abf5648da59")
 	)
 	(hierarchical_label "3V3"
 		(shape output)
