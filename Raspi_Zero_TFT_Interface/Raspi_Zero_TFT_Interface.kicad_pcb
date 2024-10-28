@@ -224,7 +224,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e4181f2e-8c1a-46d4-84e0-66f805ccc186")
@@ -380,7 +380,7 @@
 			(uuid "80449803-75f7-4a21-aab7-c10641f0987a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a65b1d97-188c-49d6-a0b5-22b707c475e8")
@@ -4768,7 +4768,7 @@
 			)
 		)
 		(property "Value" "1uF/XR5"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "687845af-1b42-4e7d-815d-b66d62270643")
@@ -4924,7 +4924,7 @@
 			(uuid "adeafce2-f078-4c12-8b20-f06ca3d9fa0b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d324f2dd-e94d-4a30-99ca-0cac9efd4274")
@@ -11137,7 +11137,7 @@
 			(type default)
 		)
 		(fill none)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "8b3956ac-dcc8-4766-9f5d-2addd631c94a")
 	)
 	(segment

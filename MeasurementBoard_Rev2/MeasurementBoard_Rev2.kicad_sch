@@ -2414,16 +2414,6 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 135.89) (xy 209.55 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b03cf004-715f-4d90-ab99-93833ee1f8d0")
-	)
-	(wire
-		(pts
 			(xy 80.01 85.09) (xy 82.55 85.09)
 		)
 		(stroke
@@ -2501,6 +2491,16 @@
 			(type default)
 		)
 		(uuid "bad142e9-a1e5-41c8-a1cf-ba215f3b39a2")
+	)
+	(wire
+		(pts
+			(xy 205.74 135.89) (xy 209.55 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb7393ec-768c-4ca1-a7db-f4ef59e9b833")
 	)
 	(wire
 		(pts
@@ -3383,7 +3383,7 @@
 	)
 	(global_label "UART_RX"
 		(shape output)
-		(at 29.21 156.21 180)
+		(at 29.21 153.67 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3392,7 +3392,7 @@
 		)
 		(uuid "4cc513de-ddbf-4ffd-a86e-f66c8eedd106")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.21 156.21 0)
+			(at 29.21 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3623,16 +3623,16 @@
 	)
 	(global_label "~{TIA4_SHDN}"
 		(shape output)
-		(at 243.84 116.84 0)
+		(at 205.74 135.89 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "83f16456-3e88-4358-838e-12d265b149c5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.84 116.84 0)
+			(at 205.74 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3923,16 +3923,16 @@
 	)
 	(global_label "Vth_2"
 		(shape input)
-		(at 205.74 135.89 180)
+		(at 243.84 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "b87140fa-dd18-4138-aceb-c435ab1886cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.74 135.89 0)
+			(at 243.84 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +4023,7 @@
 	)
 	(global_label "UART_TX"
 		(shape input)
-		(at 29.21 153.67 180)
+		(at 29.21 156.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4032,7 +4032,7 @@
 		)
 		(uuid "def2e5b9-3346-49a0-915c-3d1fd54011b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.21 153.67 0)
+			(at 29.21 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)

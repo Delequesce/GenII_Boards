@@ -2288,7 +2288,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "NC"
 			(at 33.9344 57.15 90)
 			(effects
 				(font
