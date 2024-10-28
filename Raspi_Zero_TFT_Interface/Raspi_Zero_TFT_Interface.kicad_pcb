@@ -5955,10 +5955,10 @@
 			(pintype "passive")
 			(uuid "5a1c0c17-8338-4c13-bbae-b038ad9c0bbe")
 		)
-		(pad "S1" thru_hole oval
+		(pad "S1" thru_hole circle
 			(at -4.32 -3 270)
-			(size 1.1 1.7)
-			(drill oval 0.6 1.2)
+			(size 1.7 1.7)
+			(drill 1.2)
 			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
 			(net 2 "GND")
@@ -5966,10 +5966,10 @@
 			(pintype "passive")
 			(uuid "13922e88-2628-4c4f-b128-cddb991a42f5")
 		)
-		(pad "S1" thru_hole oval
+		(pad "S1" thru_hole circle
 			(at -4.32 0.8 270)
-			(size 1.1 1.7)
-			(drill oval 0.6 1.2)
+			(size 1.7 1.7)
+			(drill 1.2)
 			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
 			(net 2 "GND")
@@ -5977,10 +5977,10 @@
 			(pintype "passive")
 			(uuid "467cbb40-eec4-4fbb-9887-689373e923a9")
 		)
-		(pad "S1" thru_hole oval
+		(pad "S1" thru_hole circle
 			(at 4.32 -3 270)
-			(size 1.1 1.7)
-			(drill oval 0.6 1.2)
+			(size 1.7 1.7)
+			(drill 1.2)
 			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
 			(net 2 "GND")
@@ -5988,10 +5988,10 @@
 			(pintype "passive")
 			(uuid "b7d7630e-4516-4158-ba20-51e61b49264d")
 		)
-		(pad "S1" thru_hole oval
+		(pad "S1" thru_hole circle
 			(at 4.32 0.8 270)
-			(size 1.1 1.7)
-			(drill oval 0.6 1.2)
+			(size 1.7 1.7)
+			(drill 1.2)
 			(layers "*.Cu" "*.Mask" "F.Paste")
 			(remove_unused_layers no)
 			(net 2 "GND")
