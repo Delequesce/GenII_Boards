@@ -9035,10 +9035,6 @@
 		(uuid "073b415a-b172-422b-902b-1d8a3300602f")
 	)
 	(no_connect
-		(at 104.14 63.5)
-		(uuid "150e8b50-ee57-4f6a-bb18-f7c9093c833e")
-	)
-	(no_connect
 		(at 233.68 68.58)
 		(uuid "3a1bd56f-6399-476b-b73c-904a43af24ad")
 	)
