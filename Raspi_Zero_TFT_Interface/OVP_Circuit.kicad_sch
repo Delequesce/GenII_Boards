@@ -1122,7 +1122,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fc6a051-b1d8-4bbe-89af-7db30f2884c4")
-		(property "Reference" "C11"
+		(property "Reference" "C6"
 			(at 71.12 53.3463 0)
 			(effects
 				(font
@@ -1173,6 +1173,14 @@
 		(pin "2"
 			(uuid "691b7514-b31c-495c-9bf1-bae4774b316f")
 		)
+		(instances
+			(project "Raspi_Zero_TFT_Interface"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/50d4a57d-354f-4afa-869e-4e71aa380902/3bad1f83-a2fe-4a97-b599-4c79fec87df7"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:D_Zener")
@@ -1183,7 +1191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "80efa762-bcc2-45d2-b258-1106d0b504ae")
-		(property "Reference" "D6"
+		(property "Reference" "D3"
 			(at 52.07 54.61 90)
 			(effects
 				(font
@@ -1199,6 +1207,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-123"
@@ -1233,6 +1242,14 @@
 		)
 		(pin "2"
 			(uuid "21777f77-a39a-43eb-b46c-a038559198cc")
+		)
+		(instances
+			(project "Raspi_Zero_TFT_Interface"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/50d4a57d-354f-4afa-869e-4e71aa380902/3bad1f83-a2fe-4a97-b599-4c79fec87df7"
+					(reference "D3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1384,7 +1401,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0f70e3f-ce97-47da-ae51-59d6f2c6e8d7")
-		(property "Reference" "Q3"
+		(property "Reference" "Q1"
 			(at 100.33 44.45 90)
 			(effects
 				(font
@@ -1438,6 +1455,14 @@
 		)
 		(pin "3"
 			(uuid "906b38a6-dc73-4729-bb1f-639cdbde5cb5")
+		)
+		(instances
+			(project "Raspi_Zero_TFT_Interface"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/50d4a57d-354f-4afa-869e-4e71aa380902/3bad1f83-a2fe-4a97-b599-4c79fec87df7"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 		)
 	)
 )

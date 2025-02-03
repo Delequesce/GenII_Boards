@@ -1362,6 +1362,12 @@
 		)
 	)
 	(junction
+		(at 69.85 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "077143ae-70ed-4115-a9e4-40c5f7e3871e")
+	)
+	(junction
 		(at 106.68 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1426,12 +1432,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee59d277-fe4e-4f38-847e-14ceac287a2d")
-	)
-	(junction
-		(at 123.19 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ee6175b9-0ab3-46b2-8c57-344be47feaa1")
 	)
 	(junction
 		(at 74.93 53.34)
@@ -1565,23 +1565,33 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 60.96) (xy 165.1 60.96)
+			(xy 69.85 43.18) (xy 69.85 44.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a9ab9b4-c560-4ebd-a9c2-b9d35dd42bb9")
+		(uuid "35806b59-ac3d-436a-a3ba-b9e27c637b16")
 	)
 	(wire
 		(pts
-			(xy 162.56 69.85) (xy 162.56 71.12)
+			(xy 162.56 69.85) (xy 162.56 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3afdb0b2-d1c0-4e17-9540-26f5a14e2627")
+	)
+	(wire
+		(pts
+			(xy 69.85 49.53) (xy 69.85 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bff84f1-5ed7-4540-8120-d0391baf3257")
 	)
 	(wire
 		(pts
@@ -1632,16 +1642,6 @@
 			(type default)
 		)
 		(uuid "4229eaf0-806f-429f-bbb4-0a97c1671b45")
-	)
-	(wire
-		(pts
-			(xy 74.93 60.96) (xy 74.93 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42a78c2e-4aae-445e-878a-d4846f5e75d2")
 	)
 	(wire
 		(pts
@@ -1795,16 +1795,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 82.55) (xy 123.19 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b2c135c-a511-47c7-a210-bf11e05ad427")
-	)
-	(wire
-		(pts
 			(xy 149.86 76.2) (xy 154.94 76.2)
 		)
 		(stroke
@@ -1825,7 +1815,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 55.88) (xy 74.93 53.34)
+			(xy 74.93 53.34) (xy 74.93 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1862,6 +1852,16 @@
 			(type default)
 		)
 		(uuid "bb417d25-8398-4ef6-a2e5-d7d7be4227f6")
+	)
+	(wire
+		(pts
+			(xy 162.56 60.96) (xy 167.64 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c36cf910-8d69-491d-b5ea-1857d3149b44")
 	)
 	(wire
 		(pts
@@ -1935,6 +1935,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 43.18) (xy 74.93 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e83f106c-5ce1-4222-adb7-0396c734a14e")
+	)
+	(wire
+		(pts
 			(xy 55.88 33.02) (xy 140.97 33.02)
 		)
 		(stroke
@@ -1945,17 +1955,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 77.47) (xy 123.19 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb9575da-9dfc-4393-92ae-30ca13823767")
-	)
-	(wire
-		(pts
-			(xy 55.88 43.18) (xy 74.93 43.18)
+			(xy 55.88 43.18) (xy 69.85 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1982,16 +1982,6 @@
 			(type default)
 		)
 		(uuid "fad5207a-2b84-4251-b53c-8219c1a93752")
-	)
-	(text "Probably \nNot needed"
-		(exclude_from_sim no)
-		(at 66.294 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "ec7ee20a-add1-48ea-86f4-b73e58855163")
 	)
 	(text "Charging Light"
 		(exclude_from_sim no)
@@ -2030,7 +2020,7 @@
 	)
 	(hierarchical_label "Vcc"
 		(shape output)
-		(at 165.1 60.96 0)
+		(at 167.64 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2042,7 +2032,7 @@
 	)
 	(hierarchical_label "~{CHARGE_EN}"
 		(shape input)
-		(at 69.85 53.34 180)
+		(at 74.93 58.42 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2078,7 +2068,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 71.12 0)
+		(at 162.56 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2086,7 +2076,7 @@
 		(dnp no)
 		(uuid "0701938e-c967-400d-92c1-d4829ccfca9a")
 		(property "Reference" "#PWR023"
-			(at 162.56 77.47 0)
+			(at 162.56 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2095,7 +2085,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 160.02 69.85 90)
+			(at 160.02 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2105,7 +2095,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 71.12 0)
+			(at 162.56 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2114,7 +2104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 71.12 0)
+			(at 162.56 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2123,7 +2113,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 71.12 0)
+			(at 162.56 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,173 +2583,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 123.19 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d86c86c-fa10-4d63-b7de-f7fa99e8c784")
-		(property "Reference" "C5"
-			(at 117.856 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22u"
-			(at 117.856 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 123.19 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 123.19 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2677a089-e18b-4886-85cc-30f8002c0177")
-		)
-		(pin "2"
-			(uuid "b27bd936-8684-4f0d-9fc1-26efdb49005d")
-		)
-		(instances
-			(project "Raspi_Zero_TFT_Interface"
-				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/50d4a57d-354f-4afa-869e-4e71aa380902"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "FrontEndPrototype_Rev1-rescue:SSM3J358R")
-		(at 80.01 45.72 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6dfb86b5-a940-45bf-b5c9-21f1d8cf0bd4")
-		(property "Reference" "Q1"
-			(at 80.01 36.83 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SI2347DS-TI-GE3CT"
-			(at 80.01 39.37 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 82.55 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "P-MOSFET transistor"
-			(at 64.516 43.688 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "PMOS"
-			(at 74.93 53.086 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 60.96 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" ""
-			(at 64.77 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "a1f6e674-68f1-408e-8610-ff419b596b11")
-		)
-		(pin "2"
-			(uuid "8baf749c-46e3-497e-84ae-2da267b6d49c")
-		)
-		(pin "1"
-			(uuid "f2864856-1b76-4fda-93d6-57b9d1f15ce1")
-		)
-		(instances
-			(project "Raspi_Zero_TFT_Interface"
-				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/50d4a57d-354f-4afa-869e-4e71aa380902"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Battery_Management:MCP73831-2-OT")
 		(at 106.68 50.8 0)
 		(unit 1)
@@ -2834,73 +2657,6 @@
 			(project "Raspi_Zero_TFT_Interface"
 				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/50d4a57d-354f-4afa-869e-4e71aa380902"
 					(reference "U11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 74.93 63.5 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8841ebbf-d28d-454c-b9ea-4dd0a5f38003")
-		(property "Reference" "#PWR022"
-			(at 74.93 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 72.39 62.23 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 74.93 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 74.93 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 74.93 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54012d21-74dd-4de8-a524-9d37ae49562a")
-		)
-		(instances
-			(project "Raspi_Zero_TFT_Interface"
-				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/50d4a57d-354f-4afa-869e-4e71aa380902"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -3127,6 +2883,104 @@
 		)
 	)
 	(symbol
+		(lib_id "FrontEndPrototype_Rev1-rescue:SSM3J358R")
+		(at 80.01 45.72 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b31605a0-9516-4afd-9416-d1f2551f226e")
+		(property "Reference" "Q3"
+			(at 80.01 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SSM3J358R"
+			(at 80.01 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
+			(at 82.55 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "P-MOSFET transistor"
+			(at 64.516 43.688 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "PMOS"
+			(at 74.93 53.086 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 60.96 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 64.77 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a377cdd8-e5d7-43fe-a3b6-938195ad9897")
+		)
+		(pin "2"
+			(uuid "a2cc609c-27ba-429a-b78c-d0b3dfc3659b")
+		)
+		(pin "1"
+			(uuid "3eedfbcf-a3eb-47c3-a4d4-209c35755470")
+		)
+		(instances
+			(project "Raspi_Zero_TFT_Interface"
+				(path "/9fcf58ec-9ad6-40d8-a93b-d0fc15c15838/50d4a57d-354f-4afa-869e-4e71aa380902"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 139.7 90.17 0)
 		(unit 1)
@@ -3195,7 +3049,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 74.93 58.42 0)
+		(at 69.85 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3203,15 +3057,15 @@
 		(dnp no)
 		(uuid "d3745127-30e9-403d-ad4f-2ce3bcc90be0")
 		(property "Reference" "RPU1"
-			(at 77.47 58.42 90)
+			(at 72.39 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5k"
-			(at 72.39 58.42 90)
+		(property "Value" "10k"
+			(at 67.31 46.99 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +3073,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 74.93 58.42 0)
+			(at 69.85 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +3082,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 58.42 0)
+			(at 69.85 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3237,7 +3091,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 74.93 58.42 0)
+			(at 69.85 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
