@@ -17,9 +17,9 @@
 14) ~~Added a small board meant to be separated for interfacing the pushbutton reset switch with the rest of the circuit.~~
 
 ### Measurement Board
-1) Fixed PWM Heater signal routing 
-2) Flipped FPC connector to Pi Board to top of board to ease assembly. Checked wiring against the Pi board.
-3) Moved Vdd Main LDO from Pi Board. Also changed to lower output current, low noise LDO with overcurrent protection. 
+1) ~~Fixed PWM Heater signal routing~~ 
+2) ~~Flipped FPC connector to Pi Board to top of board to ease assembly. Checked wiring against the Pi board.~~
+3) ~~Moved Vdd Main LDO from Pi Board.~~ 
 4) Added external interrupt pin and Vcc controller output pin to interface with external pushbutton board.
 
 ### Heater Board

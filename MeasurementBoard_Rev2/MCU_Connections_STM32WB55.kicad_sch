@@ -1709,6 +1709,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 45.72) (xy 44.45 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5a2d1d4-ebc2-4834-a169-1241d289bdb5")
+	)
+	(wire
+		(pts
 			(xy 44.45 60.96) (xy 41.91 60.96)
 		)
 		(stroke
@@ -1737,6 +1747,18 @@
 			(justify left bottom)
 		)
 		(uuid "168e291b-f151-470f-a948-c75063635178")
+	)
+	(hierarchical_label "PC5"
+		(shape output)
+		(at 41.91 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "04d75ae7-451f-46b9-8234-b143cd9c8a8a")
 	)
 	(hierarchical_label "PC12"
 		(shape output)
@@ -2049,6 +2071,18 @@
 			(justify left)
 		)
 		(uuid "8a1aaad7-d14a-4383-90cb-a36e201c3f32")
+	)
+	(hierarchical_label "PB8"
+		(shape output)
+		(at 102.87 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8bc7d1a5-abcc-4bb7-927e-813d6c69fd6d")
 	)
 	(hierarchical_label "Vdd"
 		(shape output)
