@@ -636,6 +636,12 @@
 		)
 	)
 	(junction
+		(at 270.51 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "055c5a1e-f439-499a-a98c-69bf2757a168")
+	)
+	(junction
 		(at 184.15 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -646,6 +652,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "242009c8-75b6-4b5d-aaf5-03def3f9bba8")
+	)
+	(junction
+		(at 267.97 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "25b5d6aa-80c0-4212-b03c-94c139206f48")
 	)
 	(junction
 		(at 246.38 46.99)
@@ -700,6 +712,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bead5df-7a16-436b-851f-081cd458878b")
+	)
+	(junction
+		(at 213.36 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8213b782-cd43-45b6-a537-10639525dad2")
+	)
+	(junction
+		(at 215.9 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "994e77ab-607a-405d-b06b-7e5458185cfb")
 	)
 	(junction
 		(at 209.55 46.99)
@@ -769,7 +793,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 116.84) (xy 271.78 116.84)
+			(xy 266.7 116.84) (xy 267.97 116.84)
 		)
 		(stroke
 			(width 0)
@@ -889,13 +913,23 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 116.84) (xy 219.71 116.84)
+			(xy 209.55 116.84) (xy 213.36 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3ca7ee15-65aa-4950-a205-9baa30a515f5")
+	)
+	(wire
+		(pts
+			(xy 267.97 105.41) (xy 267.97 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49a87960-360a-4829-972a-9a649fe4464c")
 	)
 	(wire
 		(pts
@@ -909,7 +943,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 114.3) (xy 219.71 114.3)
+			(xy 209.55 114.3) (xy 215.9 114.3)
 		)
 		(stroke
 			(width 0)
@@ -969,6 +1003,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 105.41) (xy 270.51 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66860a15-eb82-4e14-be8e-9f7212eeeb9d")
+	)
+	(wire
+		(pts
 			(xy 200.66 67.31) (xy 209.55 67.31)
 		)
 		(stroke
@@ -1016,6 +1060,16 @@
 			(type default)
 		)
 		(uuid "6c4aa056-97f6-45dd-b5c4-87f527176876")
+	)
+	(wire
+		(pts
+			(xy 213.36 116.84) (xy 219.71 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d16edc9-cf44-4e08-998e-56db477bbfcd")
 	)
 	(wire
 		(pts
@@ -1099,6 +1153,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 114.3) (xy 219.71 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97569b0b-206a-4e93-a381-b6ecf178bd59")
+	)
+	(wire
+		(pts
 			(xy 219.71 59.69) (xy 219.71 67.31)
 		)
 		(stroke
@@ -1129,6 +1193,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 114.3) (xy 271.78 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5cccba7-5d5b-41ef-9c90-5e8e125fc0eb")
+	)
+	(wire
+		(pts
 			(xy 184.15 57.15) (xy 184.15 46.99)
 		)
 		(stroke
@@ -1136,6 +1210,16 @@
 			(type default)
 		)
 		(uuid "a99c22b3-0fbb-4dae-9cf8-3ca46b839891")
+	)
+	(wire
+		(pts
+			(xy 215.9 106.68) (xy 215.9 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "addd9420-7a8c-4581-8e33-3d5a79785faa")
 	)
 	(wire
 		(pts
@@ -1186,6 +1270,16 @@
 			(type default)
 		)
 		(uuid "be279964-c038-4b98-bfb4-0acd77825358")
+	)
+	(wire
+		(pts
+			(xy 267.97 116.84) (xy 271.78 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2bcc4b3-8e72-4144-950f-73b3fc535683")
 	)
 	(wire
 		(pts
@@ -1269,7 +1363,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 114.3) (xy 271.78 114.3)
+			(xy 266.7 114.3) (xy 270.51 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1289,6 +1383,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 106.68) (xy 213.36 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe35d529-4b0a-4ee0-b056-01b36041218c")
+	)
+	(wire
+		(pts
 			(xy 228.6 46.99) (xy 228.6 54.61)
 		)
 		(stroke
@@ -1296,6 +1400,16 @@
 			(type default)
 		)
 		(uuid "ff2128e0-4d7f-4596-a22f-d6cc7986fb17")
+	)
+	(text "Extension Pads for Thermistor Connection"
+		(exclude_from_sim no)
+		(at 242.57 98.806 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4179c54a-9dac-4421-9c34-51efcce13b7e")
 	)
 	(text "Type II: Discrete Resistors"
 		(exclude_from_sim no)
@@ -2078,6 +2192,74 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Pin")
+		(at 270.51 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e2b35cf-0efb-43c9-9cbb-b16b36c3b656")
+		(property "Reference" "J3"
+			(at 275.59 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 273.05 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "GenIILibrary:Thermistor_ExtensionPad"
+			(at 270.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 270.51 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca27b134-adf0-4a7d-b7d0-2282b8636da5")
+		)
+		(pin "2"
+			(uuid "707f5ae3-d773-469e-9fe4-40977656ecc9")
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
 		(at 193.04 57.15 0)
 		(mirror y)
 		(unit 1)
@@ -2609,6 +2791,74 @@
 			(project "FrontEndPrototype_Rev2_Heater"
 				(path "/e436919c-dde8-4a59-b391-4407947ae518"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 215.9 101.6 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ccb9367b-be7b-479a-91c7-8bf292bfb026")
+		(property "Reference" "J2"
+			(at 220.98 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 218.44 102.235 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "GenIILibrary:Thermistor_ExtensionPad"
+			(at 215.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 215.9 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f66940a0-ff4f-4bb4-8004-a46f9837dfa3")
+		)
+		(pin "2"
+			(uuid "4d2ed233-95e9-4a37-a960-3d14cc239021")
+		)
+		(instances
+			(project "FrontEndPrototype_Rev2_Heater"
+				(path "/e436919c-dde8-4a59-b391-4407947ae518"
+					(reference "J2")
 					(unit 1)
 				)
 			)

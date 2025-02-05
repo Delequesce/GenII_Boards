@@ -20,8 +20,9 @@
 1) ~~Fixed PWM Heater signal routing~~ 
 2) ~~Flipped FPC connector to Pi Board to top of board to ease assembly. Checked wiring against the Pi board.~~
 3) ~~Moved Vdd Main LDO from Pi Board.~~ 
-4) Added external interrupt pin and Vcc controller output pin to interface with external pushbutton board.
+4) ~~Added external interrupt pin and Vcc controller output pin to interface with external pushbutton board. Needed to add 50 mils (1.27 mm) to board length.~~
+5) ~~Changed the ADR4530 to the MAX6070, a cheaper buffered reference requiring fewer parts.~~
 
 ### Heater Board
-1) Reduced the size of vias and made more of them for better heating and lower losses. 
+1) ~~Reduced the size of vias and made more of them for better heating and lower losses. ~~
 2) Moved the thermistors slightly farther from the center to improve temperature tracking. Alternately just reduced the size of the heating area to improve tracking without separating the thermistors from the chip. (Maybe)

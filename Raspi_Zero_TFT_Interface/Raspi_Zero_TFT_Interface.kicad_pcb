@@ -420,7 +420,7 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178D.PDF inferred 3-pin variant), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q1"
-			(at -0.1375 0.05 360)
+			(at -0.1375 0.05 0)
 			(layer "F.SilkS")
 			(uuid "acf2ddf1-ccfc-4e3f-94bf-cf0937246110")
 			(effects
@@ -431,7 +431,7 @@
 			)
 		)
 		(property "Value" "DMG3406L-7"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4d9014c8-7293-4e1b-aff4-f25204f10dde")
@@ -1524,7 +1524,7 @@
 		(descr "Fuse SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "fuse")
 		(property "Reference" "F2"
-			(at 0 1.25 360)
+			(at 0 1.25 0)
 			(layer "F.SilkS")
 			(uuid "d9e78ad6-2daf-4dc8-a3b0-c442bc529284")
 			(effects
@@ -1535,7 +1535,7 @@
 			)
 		)
 		(property "Value" "1.5 A Slow-Blow"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5db20e08-7e2c-4798-bb89-b25a3b0a0499")
@@ -2375,7 +2375,7 @@
 		(descr "5-pin SOT23 package")
 		(tags "SOT-23-5 hand-soldering")
 		(property "Reference" "U8"
-			(at 0 -1 360)
+			(at 0 -1 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "90843b51-f4fa-4dad-b4c7-7d572b1a42c8")
@@ -2387,7 +2387,7 @@
 			)
 		)
 		(property "Value" "TPS2400"
-			(at 0 2.9 360)
+			(at 0 2.9 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "237282ef-3338-42b7-83e3-ebf19d48d08c")
@@ -2647,7 +2647,7 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178D.PDF inferred 3-pin variant), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q2"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "91aa62a7-78d0-4d3a-b496-e71897e9b71b")
 			(effects
@@ -2658,7 +2658,7 @@
 			)
 		)
 		(property "Value" "SSM3J358R"
-			(at 0 2.4 360)
+			(at 0 2.4 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e3eae0ea-1057-40ef-b1e9-9445e6db8788")
@@ -2942,7 +2942,7 @@
 		(descr "D_SOD-128 (CFP5 SlimSMAW), https://assets.nexperia.com/documents/outline-drawing/SOD128.pdf")
 		(tags "D_SOD-128")
 		(property "Reference" "D2"
-			(at -0.25 2 360)
+			(at -0.25 2 0)
 			(layer "F.SilkS")
 			(uuid "343108cf-17d0-4bdf-bfa7-bb30bda4c14a")
 			(effects
@@ -2953,7 +2953,7 @@
 			)
 		)
 		(property "Value" "PMEG3030EP,115"
-			(at 0 2.25 360)
+			(at 0 2.25 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "dd1e57f4-8664-4431-8044-5957c853d666")
@@ -3253,7 +3253,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C4"
-			(at 0 -2.93 360)
+			(at 0 -2.93 0)
 			(layer "F.SilkS")
 			(uuid "077db26c-21bc-432a-8587-1fba32d3cc6c")
 			(effects
@@ -3264,7 +3264,7 @@
 			)
 		)
 		(property "Value" "22u"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e2629d78-6248-44e4-8679-8f9e374edc7a")
@@ -7413,7 +7413,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R4"
-			(at 0 -1.25 360)
+			(at 0 -1.25 0)
 			(layer "B.SilkS")
 			(uuid "d0068414-7a84-4040-b8de-b42bb30f90ae")
 			(effects
@@ -7426,7 +7426,7 @@
 			)
 		)
 		(property "Value" "33"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "fcfa0893-cb31-49d7-b0e7-b76ee5919183")
@@ -8149,7 +8149,7 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/sites/default/files/docs/Mo-178D.PDF inferred 3-pin variant), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q3"
-			(at 0.25 5.4 360)
+			(at 0.25 5.4 0)
 			(layer "B.SilkS")
 			(uuid "8b67094c-dbcd-409f-83f7-39a7d6b79e15")
 			(effects
@@ -8161,7 +8161,7 @@
 			)
 		)
 		(property "Value" "SSM3J358R"
-			(at 0 -2.4 360)
+			(at 0 -2.4 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "54d982f5-ea4a-4d82-abec-25b54acfbdd2")
@@ -8404,7 +8404,7 @@
 			(uuid "34237710-9b28-491f-b255-3ad8f1ab3375")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "4a0d8314-4b4a-46cf-8b35-47b2a4bce1fa")
 			(effects
@@ -9246,7 +9246,7 @@
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
 		(property "Reference" "J2"
-			(at 2.75 0.95 360)
+			(at 2.75 0.95 0)
 			(layer "B.SilkS")
 			(uuid "d8775b6b-1983-49eb-92b6-26cb42887b16")
 			(effects
@@ -9258,7 +9258,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 0 -9.95 360)
+			(at 0 -9.95 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "63ea4c26-7f0f-4052-9f9e-8ff3e15ea679")
@@ -9766,7 +9766,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ddcf74dc-6e62-4f64-9110-48bebb6e7408")
@@ -9926,7 +9926,7 @@
 			(uuid "9c4f7d39-d4a2-48e9-b3b9-4a3da16d1475")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "2cbc8746-9ae9-4b87-b799-b7ee9417cf30")
