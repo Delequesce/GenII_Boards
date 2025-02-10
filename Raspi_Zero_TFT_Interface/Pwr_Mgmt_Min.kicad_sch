@@ -1985,7 +1985,7 @@
 	)
 	(text "Charging Light"
 		(exclude_from_sim no)
-		(at 130.81 45.72 0)
+		(at 125.476 41.402 0)
 		(effects
 			(font
 				(size 1.27 1.27)

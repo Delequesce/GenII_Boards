@@ -10079,7 +10079,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 114.3) (xy 176.53 118.11)
+			(xy 176.53 116.84) (xy 176.53 118.11)
 		)
 		(stroke
 			(width 0)
@@ -10119,7 +10119,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 118.11) (xy 160.02 118.11)
+			(xy 153.67 118.11) (xy 160.02 118.11)
 		)
 		(stroke
 			(width 0)
@@ -11219,7 +11219,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 118.11) (xy 146.05 118.11)
+			(xy 129.54 118.11) (xy 148.59 118.11)
 		)
 		(stroke
 			(width 0)
@@ -11735,7 +11735,7 @@
 		(uuid "0dd11cd9-1ce0-4225-9b70-93867ae3f875")
 	)
 	(label "Vcc_MeasBoard"
-		(at 176.53 114.3 0)
+		(at 176.53 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11812,7 +11812,7 @@
 		(uuid "2a73ca41-7617-4e32-8ecd-dd4841cc4ca3")
 	)
 	(label "Vcc_Pi_Screen"
-		(at 128.27 118.11 0)
+		(at 129.54 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14958,7 +14958,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse_Small")
-		(at 148.59 118.11 0)
+		(at 151.13 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14966,7 +14966,7 @@
 		(dnp no)
 		(uuid "99549389-f448-4919-b3e4-90c1ee0a6de8")
 		(property "Reference" "F2"
-			(at 148.59 113.03 0)
+			(at 151.13 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14974,7 +14974,7 @@
 			)
 		)
 		(property "Value" "1.5 A Slow-Blow"
-			(at 148.59 115.57 0)
+			(at 151.13 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14982,7 +14982,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
-			(at 148.59 118.11 0)
+			(at 151.13 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14991,7 +14991,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 118.11 0)
+			(at 151.13 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15000,7 +15000,7 @@
 			)
 		)
 		(property "Description" "Fuse, small symbol"
-			(at 148.59 118.11 0)
+			(at 151.13 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)

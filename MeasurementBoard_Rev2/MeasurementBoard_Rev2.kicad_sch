@@ -2258,16 +2258,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 144.78) (xy 148.59 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d535307-23b8-4a2e-87f7-c1b9591bce2e")
-	)
-	(wire
-		(pts
 			(xy 220.98 44.45) (xy 220.98 49.53)
 		)
 		(stroke
@@ -2618,7 +2608,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 146.05) (xy 144.78 146.05)
+			(xy 139.7 146.05) (xy 149.86 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2845,16 +2835,6 @@
 			(type default)
 		)
 		(uuid "ab0ae6d2-11c0-46e0-9666-0a3fc8e4cef3")
-	)
-	(wire
-		(pts
-			(xy 144.78 146.05) (xy 144.78 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abc1b147-2ffa-4fc1-b95a-f90547ff76b9")
 	)
 	(wire
 		(pts
@@ -3957,7 +3937,7 @@
 	)
 	(global_label "~{Power_Switch_INT}"
 		(shape output)
-		(at 148.59 144.78 0)
+		(at 149.86 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3966,7 +3946,7 @@
 		)
 		(uuid "664786f6-542d-4ba3-932a-204f62d97e18")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 148.59 127 0)
+			(at 149.86 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7188,16 +7168,6 @@
 				(justify left top)
 			)
 		)
-		(pin "Vdd" input
-			(at 34.29 110.49 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "d3e6eecd-378c-4abc-9250-0575ab742bbc")
-		)
 		(pin "Vdd_ADC" output
 			(at 57.15 111.76 0)
 			(effects
@@ -7287,6 +7257,16 @@
 				(justify right)
 			)
 			(uuid "680dc497-5c01-4ee8-8524-90b9a61a0dac")
+		)
+		(pin "Vdd" input
+			(at 34.29 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "eefcb448-909b-499c-b953-973353b10d3f")
 		)
 		(instances
 			(project "MeasurementBoard_Rev2"
